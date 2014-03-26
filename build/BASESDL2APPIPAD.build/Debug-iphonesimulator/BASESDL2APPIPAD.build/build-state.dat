@@ -202,9 +202,9 @@ t2
 s0
 
 N/Users/student/Desktop/Invaders of space/App.cpp
-c000000005329F09F0000000000000AB0
-t1395257503
-s2736
+c000000005329F7D100000000000007A9
+t1395259345
+s1961
 i"App.h"
 
 N/Users/student/Desktop/Invaders of space/App.h
@@ -225,6 +225,11 @@ c000000004E27A5820000000000EAE718
 t1311221122
 s15394584
 
+N/Users/student/Desktop/Invaders of space/Data/Images/Background.bmp
+c000000004E1B2E0000000000000E1038
+t1310404096
+s921656
+
 N/Users/student/Desktop/Invaders of space/Default.png
 c00000000000000000000000000000000
 t2
@@ -234,6 +239,11 @@ N/Users/student/Desktop/Invaders of space/Icon.png
 c00000000000000000000000000000000
 t2
 s0
+
+N/Users/student/Desktop/Invaders of space/Info.plist
+c0000000052F8FA82000000000000045C
+t1392048770
+s1116
 
 N/Users/student/Desktop/Invaders of space/Player.pbm
 c00000000000000000000000000000000
@@ -822,6 +832,10 @@ s15394584
 N/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/BASESDL2APPIPAD
 t1395250204
 s2272568
+
+N/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/Background.bmp
+t1395250198
+s921656
 
 N/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/Default.png
 t1395250198
@@ -1775,9 +1789,9 @@ t1334365314
 s3021587
 
 NInfo.plist
-c00000000000000000000000000000000
-t2
-s0
+c0000000052F8FA82000000000000045C
+t1392048770
+s1116
 
 CCheck dependencies
 r0
@@ -1818,6 +1832,9 @@ xc++
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@57"Compile /Users/student/Downloads/BASESDL2APPIPAD/main.cpp416943002#416943003#0(0"0(0#0#49"/Users/student/Downloads/BASESDL2APPIPAD/main.cpp4319178752#1964"    cd /Users/student/Downloads/BASESDL2APPIPAD    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/student/Downloads/BASESDL2APPIPAD/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/BASESDL2APPIPAD-generated-files.hmap -I/Users/student/Downloads/BASESDL2APPIPAD/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/BASESDL2APPIPAD-own-target-headers.hmap -I/Users/student/Downloads/BASESDL2APPIPAD/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/BASESDL2APPIPAD-all-target-headers.hmap -iquote /Users/student/Downloads/BASESDL2APPIPAD/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/BASESDL2APPIPAD-project-headers.hmap -F/Users/student/Downloads/BASESDL2APPIPAD/build/Debug-iphonesimulator -F/Users/student/Downloads/BASESDL2APPIPAD/../../../Library/Frameworks -I/Users/student/Downloads/BASESDL2APPIPAD/build/Debug-iphonesimulator/include -ISDL/include -I/Users/student/Downloads/BASESDL2APPIPAD/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/DerivedSources/i386 -I/Users/student/Downloads/BASESDL2APPIPAD/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/DerivedSources -c /Users/student/Downloads/BASESDL2APPIPAD/main.cpp -o /Users/student/Downloads/BASESDL2APPIPAD/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/main.o0#
 
+CCopyPlistFile "/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/Info.plist" Info.plist
+r0
+
 CCopyTiffFile "/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/person.tif" person.tif
 r0
 
@@ -1838,6 +1855,9 @@ xCpResource
 xbuild/Debug-iphonesimulator/BASESDL2APPIPAD.app/AppleGothic.ttf
 xAppleGothic.ttf
 lSLF07#2@20"Copy AppleGothic.ttf416942997#416942998#0(0"0(0#0#56"/Users/student/Downloads/BASESDL2APPIPAD/AppleGothic.ttf4319178752#487"    cd /Users/student/Downloads/BASESDL2APPIPAD    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/student/Downloads/BASESDL2APPIPAD/AppleGothic.ttf /Users/student/Downloads/BASESDL2APPIPAD/build/Debug-iphonesimulator/BASESDL2APPIPAD.app0#
+
+CCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/Background.bmp Data/Images/Background.bmp
+r0
 
 CCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/Default.png Default.png
 s416942997.986045

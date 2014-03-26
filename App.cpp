@@ -38,9 +38,6 @@ void DrawBackground(SDL_Renderer *renderer)
 
 bool App::initialize()
 {
-    SCREEN_RECT.w = 320;
-    SCREEN_RECT.h = 480;
-    
     //initialize SDL video
     if (SDL_Init( SDL_INIT_VIDEO | SDL_INIT_JOYSTICK ) != 0)
     {
@@ -52,9 +49,12 @@ bool App::initialize()
     atexit(SDL_Quit);
     
     // Create main window and renderer.
-    window = SDL_CreateWindow(NULL, 150, 50, SCREEN_RECT.w, SCREEN_RECT.h,
+    window = SDL_CreateWindow("Invaders From Space", 300, 100, 0, 0,
 							  SDL_WINDOW_OPENGL | SDL_WINDOW_SHOWN |
 							  SDL_WINDOW_BORDERLESS);
+    
+    SDL_GetWindowSize(window, &SCREEN_RECT.w, &SCREEN_RECT.h);
+    //SDL_SetWindowSize(window, SCREEN_RECT.w, SCREEN_RECT.h);
     
     renderer = SDL_CreateRenderer(window, 0, 0);
     
@@ -93,11 +93,11 @@ void App::run()
         {
             if (event.type == SDL_QUIT)
             {
-                runningGame = false;
+                return;
             }
             else if (event.type == SDL_KEYDOWN && event.key.keysym.sym == SDLK_ESCAPE)
             {
-                runningGame = false;
+                return;
             }
             else
                 App::update_event(event);

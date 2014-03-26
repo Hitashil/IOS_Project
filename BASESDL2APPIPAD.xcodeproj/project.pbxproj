@@ -232,7 +232,7 @@
 		28FD15070DC6FC5B0079059D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		3FC0183C18DA13CC0096F1DB /* App.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = App.cpp; sourceTree = "<group>"; };
 		3FC0183D18DA13CC0096F1DB /* App.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = App.h; sourceTree = "<group>"; };
-		3FC0183F18DA22110096F1DB /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3FC0183F18DA22110096F1DB /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = main.cpp; sourceTree = "<group>"; };
 		3FD3ED4518DA2BAD00A8D5F6 /* Background.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = Background.bmp; path = Data/Images/Background.bmp; sourceTree = "<group>"; };
 		3FD3ED4718DA2C5800A8D5F6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF336A6A1395685A002A3104 /* AppleGothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AppleGothic.ttf; sourceTree = "<group>"; };
@@ -667,7 +667,7 @@
 				GCC_PREFIX_HEADER = "";
 				HEADER_SEARCH_PATHS = SDL/include;
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = SDL/lib_simulator;
 				PRODUCT_NAME = BASESDL2APPIPAD;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -687,7 +687,7 @@
 				GCC_PREFIX_HEADER = "";
 				HEADER_SEARCH_PATHS = SDL/include;
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = SDL/lib_simulator;
 				PRODUCT_NAME = BASESDL2APPIPAD;
 				TARGETED_DEVICE_FAMILY = "1,2";
