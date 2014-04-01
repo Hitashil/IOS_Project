@@ -1,35 +1,20 @@
 TBASESDL2APPIPAD
 v7
 r0
-t416943097.148634
+t417553947.965348
 cCheck dependencies
-cProcessInfoPlistFile /Users/student/Downloads/BASESDL2APPIPAD/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/Info.plist Info.plist
-cCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/Icon.png Icon.png
-cCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/Default.png Default.png
-cCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/background.bmp background.bmp
-cCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/indicator.bmp indicator.bmp
+cProcessInfoPlistFile "/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/Info.plist" Info.plist
+cCopyPlistFile "/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/Info.plist" Info.plist
 cCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/AppleGothic.ttf AppleGothic.ttf
-cCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/cb.bmp cb.bmp
-cCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/person.bmp person.bmp
-cCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/person.gif person.gif
-cCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/person.jpg person.jpg
-cCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/person.pbm person.pbm
-cCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/person.pcx person.pcx
-cCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/person.png person.png
-cCopyTiffFile /Users/student/Downloads/BASESDL2APPIPAD/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/person.tif person.tif
-cCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/Player.pbm Player.pbm
 cCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/doxyfile SDL/include/doxyfile
 cCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/SDL_config.h.in SDL/include/SDL_config.h.in
-cCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/sample.wav sample.wav
-cCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/sound.wav sound.wav
-cCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/trial.ogg trial.ogg
-cCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/trial.mid trial.mid
-cCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/trial.mp3 trial.mp3
-cCompileC build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/main.o /Users/student/Downloads/BASESDL2APPIPAD/main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/common.o /Users/student/Downloads/BASESDL2APPIPAD/common.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cLd /Users/student/Downloads/BASESDL2APPIPAD/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/BASESDL2APPIPAD normal i386
-cGenerateDSYMFile /Users/student/Downloads/BASESDL2APPIPAD/build/Debug-iphonesimulator/BASESDL2APPIPAD.app.dSYM /Users/student/Downloads/BASESDL2APPIPAD/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/BASESDL2APPIPAD
-cTouch /Users/student/Downloads/BASESDL2APPIPAD/build/Debug-iphonesimulator/BASESDL2APPIPAD.app
+cCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/Background.bmp Data/Images/Background.bmp
+cCompileC build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/App.o "/Users/student/Desktop/Invaders of space/App.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/common.o "/Users/student/Desktop/Invaders of space/common.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/main.o "/Users/student/Desktop/Invaders of space/main.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+cLd "/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/BASESDL2APPIPAD" normal i386
+cGenerateDSYMFile "/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/BASESDL2APPIPAD.app.dSYM" "/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/BASESDL2APPIPAD"
+cTouch "/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/BASESDL2APPIPAD.app"
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
 c000000004CC128950000000000000110
@@ -202,14 +187,14 @@ t2
 s0
 
 N/Users/student/Desktop/Invaders of space/App.cpp
-c000000005329F7D100000000000007A9
-t1395259345
-s1961
+c000000005333264100000000000007CB
+t1395861057
+s1995
 i"App.h"
 
 N/Users/student/Desktop/Invaders of space/App.h
-c000000005329EB2100000000000002DC
-t1395256097
+c000000005329F61400000000000002DC
+t1395258900
 s732
 i<iostream>
 i<string>
@@ -239,6 +224,27 @@ N/Users/student/Desktop/Invaders of space/Icon.png
 c00000000000000000000000000000000
 t2
 s0
+
+N/Users/student/Desktop/Invaders of space/Includes/App.h
+c000000005333310700000000000002C7
+t1395863815
+s711
+i<iostream>
+i<string>
+i<cstdlib>
+i<cstdio>
+i<time.h>
+i"SDL.h"
+i"SDL_mixer.h"
+i"SDL_image.h"
+
+N/Users/student/Desktop/Invaders of space/Includes/Entity.h
+c00000000533331D8000000000000024C
+t1395864024
+s588
+i<iostream>
+i"SDL.h"
+i"SDL_image.h"
 
 N/Users/student/Desktop/Invaders of space/Info.plist
 c0000000052F8FA82000000000000045C
@@ -795,34 +801,57 @@ c000000004F876F5A000000000000FF30
 t1334275930
 s65328
 
+N/Users/student/Desktop/Invaders of space/Sources/App.cpp
+c000000005333310700000000000005E1
+t1395863815
+s1505
+i"App.h"
+
+N/Users/student/Desktop/Invaders of space/Sources/Entity.cpp
+c00000000533331BC0000000000000194
+t1395863996
+s404
+i"Entity.h"
+
+N/Users/student/Desktop/Invaders of space/Sources/common.cpp
+c000000005146610A0000000000000219
+t1363566858
+s537
+i<SDL.h>
+i<stdlib.h>
+
 N/Users/student/Desktop/Invaders of space/background.bmp
 c00000000000000000000000000000000
 t2
 s0
 
 N/Users/student/Desktop/Invaders of space/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/App.o
-t2
-s0
+t1395861146
+s70808
 
 N/Users/student/Desktop/Invaders of space/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/BASESDL2APPIPAD.LinkFileList
-c000000005329D415000000000000011A
-t1395250197
-s282
+c000000005333269A00000000000001A5
+t1395861146
+s421
+
+N/Users/student/Desktop/Invaders of space/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/Entity.o
+t2
+s0
 
 N/Users/student/Desktop/Invaders of space/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/common.o
 t1395250203
 s4420
 
 N/Users/student/Desktop/Invaders of space/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/main.o
-t1395250203
-s45876
+t1395861146
+s59048
 
 N/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/BASESDL2APPIPAD.app
-t1395250204
+t1395861147
 s884
 
 N/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/BASESDL2APPIPAD.app.dSYM
-t1395250204
+t1395861147
 s102
 
 N/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/AppleGothic.ttf
@@ -830,8 +859,8 @@ t1395250198
 s15394584
 
 N/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/BASESDL2APPIPAD
-t1395250204
-s2272568
+t1395861147
+s1403868
 
 N/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/Background.bmp
 t1395250198
@@ -947,9 +976,9 @@ t2
 s0
 
 N/Users/student/Desktop/Invaders of space/main.cpp
-c000000005329EB210000000000000104
-t1395256097
-s260
+c000000005333174F0000000000000121
+t1395857231
+s289
 i"App.h"
 
 N/Users/student/Desktop/Invaders of space/person.bmp
@@ -1795,9 +1824,28 @@ s1116
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies416943097#416943097#0(0"0(0#1#0"4319178752#0"0#
+lSLF07#2@18"Check dependencies417553946#417553946#0(106"[WARN]Warning: The Copy Bundle Resources build phase contains this target's Info.plist file 'Info.plist'.1(22@99"Warning: The Copy Bundle Resources build phase contains this target's Info.plist file 'Info.plist'.417553946#18446744073709551615#0#0(1@0"0(0#1#0"17205618688#0"0#
 
 CCompileC build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/App.o "/Users/student/Desktop/Invaders of space/App.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s417553946.084627
+e417553946.959652
+r1
+xCompileC
+xbuild/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/App.o
+x/Users/student/Desktop/Invaders of space/App.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/student/Desktop/Invaders of space/App.cpp417553946#417553946#0(0"0(0#0#48"/Users/student/Desktop/Invaders of space/App.cpp17207509248#1986"    cd "/Users/student/Desktop/Invaders of space"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/student/Desktop/Invaders of space/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/BASESDL2APPIPAD-generated-files.hmap" "-I/Users/student/Desktop/Invaders of space/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/BASESDL2APPIPAD-own-target-headers.hmap" "-I/Users/student/Desktop/Invaders of space/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/BASESDL2APPIPAD-all-target-headers.hmap" -iquote "/Users/student/Desktop/Invaders of space/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/BASESDL2APPIPAD-project-headers.hmap" "-F/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator" "-F/Users/student/Desktop/Invaders of space/../../../Library/Frameworks" "-I/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/include" -ISDL/include "-I/Users/student/Desktop/Invaders of space/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/DerivedSources/i386" "-I/Users/student/Desktop/Invaders of space/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/DerivedSources" -c "/Users/student/Desktop/Invaders of space/App.cpp" -o "/Users/student/Desktop/Invaders of space/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/App.o"0#
+
+CCompileC build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/App.o "/Users/student/Desktop/Invaders of space/Sources/App.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/Entity.o "/Users/student/Desktop/Invaders of space/Sources/Entity.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/common.o "/Users/student/Desktop/Invaders of space/Sources/common.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/common.o "/Users/student/Desktop/Invaders of space/common.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
@@ -1817,7 +1865,17 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@59"Compile /Users/student/Downloads/BASESDL2APPIPAD/common.cpp416943002#416943003#0(0"0(0#0#51"/Users/student/Downloads/BASESDL2APPIPAD/common.cpp4319178752#1968"    cd /Users/student/Downloads/BASESDL2APPIPAD    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/student/Downloads/BASESDL2APPIPAD/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/BASESDL2APPIPAD-generated-files.hmap -I/Users/student/Downloads/BASESDL2APPIPAD/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/BASESDL2APPIPAD-own-target-headers.hmap -I/Users/student/Downloads/BASESDL2APPIPAD/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/BASESDL2APPIPAD-all-target-headers.hmap -iquote /Users/student/Downloads/BASESDL2APPIPAD/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/BASESDL2APPIPAD-project-headers.hmap -F/Users/student/Downloads/BASESDL2APPIPAD/build/Debug-iphonesimulator -F/Users/student/Downloads/BASESDL2APPIPAD/../../../Library/Frameworks -I/Users/student/Downloads/BASESDL2APPIPAD/build/Debug-iphonesimulator/include -ISDL/include -I/Users/student/Downloads/BASESDL2APPIPAD/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/DerivedSources/i386 -I/Users/student/Downloads/BASESDL2APPIPAD/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/DerivedSources -c /Users/student/Downloads/BASESDL2APPIPAD/common.cpp -o /Users/student/Downloads/BASESDL2APPIPAD/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/common.o0#
 
 CCompileC build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/main.o "/Users/student/Desktop/Invaders of space/main.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-r0
+s417553946.134809
+e417553946.944164
+r1
+xCompileC
+xbuild/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/main.o
+x/Users/student/Desktop/Invaders of space/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/student/Desktop/Invaders of space/main.cpp417553946#417553946#0(0"0(0#0#49"/Users/student/Desktop/Invaders of space/main.cpp4321181696#1988"    cd "/Users/student/Desktop/Invaders of space"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/student/Desktop/Invaders of space/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/BASESDL2APPIPAD-generated-files.hmap" "-I/Users/student/Desktop/Invaders of space/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/BASESDL2APPIPAD-own-target-headers.hmap" "-I/Users/student/Desktop/Invaders of space/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/BASESDL2APPIPAD-all-target-headers.hmap" -iquote "/Users/student/Desktop/Invaders of space/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/BASESDL2APPIPAD-project-headers.hmap" "-F/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator" "-F/Users/student/Desktop/Invaders of space/../../../Library/Frameworks" "-I/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/include" -ISDL/include "-I/Users/student/Desktop/Invaders of space/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/DerivedSources/i386" "-I/Users/student/Desktop/Invaders of space/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/DerivedSources" -c "/Users/student/Desktop/Invaders of space/main.cpp" -o "/Users/student/Desktop/Invaders of space/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/main.o"0#
 
 CCompileC build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/main.o /Users/student/Downloads/BASESDL2APPIPAD/main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s416943002.047622
@@ -2034,7 +2092,13 @@ xtrial.ogg
 lSLF07#2@14"Copy trial.ogg416942998#416942998#0(0"0(0#0#50"/Users/student/Downloads/BASESDL2APPIPAD/trial.ogg4319178752#481"    cd /Users/student/Downloads/BASESDL2APPIPAD    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/student/Downloads/BASESDL2APPIPAD/trial.ogg /Users/student/Downloads/BASESDL2APPIPAD/build/Debug-iphonesimulator/BASESDL2APPIPAD.app0#
 
 CGenerateDSYMFile "/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/BASESDL2APPIPAD.app.dSYM" "/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/BASESDL2APPIPAD"
-r0
+s417553947.728966
+e417553947.960876
+r1
+xGenerateDSYMFile
+x/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/BASESDL2APPIPAD.app.dSYM
+x/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/BASESDL2APPIPAD
+lSLF07#2@133"GenerateDSYMFile build/Debug-iphonesimulator/BASESDL2APPIPAD.app.dSYM build/Debug-iphonesimulator/BASESDL2APPIPAD.app/BASESDL2APPIPAD417553947#417553947#0(0"0(0#0#104"/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/BASESDL2APPIPAD4321181696#419"    cd "/Users/student/Desktop/Invaders of space"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/BASESDL2APPIPAD" -o "/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/BASESDL2APPIPAD.app.dSYM"0#
 
 CGenerateDSYMFile /Users/student/Downloads/BASESDL2APPIPAD/build/Debug-iphonesimulator/BASESDL2APPIPAD.app.dSYM /Users/student/Downloads/BASESDL2APPIPAD/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/BASESDL2APPIPAD
 s416943004.393099
@@ -2046,7 +2110,15 @@ x/Users/student/Downloads/BASESDL2APPIPAD/build/Debug-iphonesimulator/BASESDL2AP
 lSLF07#2@133"GenerateDSYMFile build/Debug-iphonesimulator/BASESDL2APPIPAD.app.dSYM build/Debug-iphonesimulator/BASESDL2APPIPAD.app/BASESDL2APPIPAD416943004#416943004#0(0"0(0#0#104"/Users/student/Downloads/BASESDL2APPIPAD/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/BASESDL2APPIPAD4319178752#413"    cd /Users/student/Downloads/BASESDL2APPIPAD    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/student/Downloads/BASESDL2APPIPAD/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/BASESDL2APPIPAD -o /Users/student/Downloads/BASESDL2APPIPAD/build/Debug-iphonesimulator/BASESDL2APPIPAD.app.dSYM0#
 
 CLd "/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/BASESDL2APPIPAD" normal i386
-r0
+s417553946.959737
+e417553947.728805
+r1
+xLd
+x/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/BASESDL2APPIPAD
+xnormal
+xi386
+old: warning: directory '/Users/student/Desktop/Invaders of space/../../../Library/Frameworks' following -F not found
+lSLF07#2@109"Link /Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/BASESDL2APPIPAD417553946#417553947#0(117"ld: warning: directory '/Users/student/Desktop/Invaders of space/../../../Library/Frameworks' following -F not found1(22@103"Directory '/Users/student/Desktop/Invaders of space/../../../Library/Frameworks' following -F not found417553947#0#117#0(6@0"417553947#0#0#0#0#0"0(0#0#0"17205784320#1253"    cd "/Users/student/Desktop/Invaders of space"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator" -LSDL/lib_simulator "-F/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator" "-F/Users/student/Desktop/Invaders of space/../../../Library/Frameworks" -filelist "/Users/student/Desktop/Invaders of space/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/BASESDL2APPIPAD.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -lSDL2_ttf -lSDL2_mixer -framework MobileCoreServices -lSDL2_net -framework ImageIO -framework Foundation -framework UIKit -framework OpenGLES -framework QuartzCore -framework CoreAudio -framework AudioToolbox -lSDL2 -framework CoreGraphics -lSDL2_image -prebind -o "/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/BASESDL2APPIPAD"0#
 
 CLd /Users/student/Downloads/BASESDL2APPIPAD/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/BASESDL2APPIPAD normal i386
 s416943003.666737
@@ -2072,7 +2144,12 @@ xInfo.plist
 lSLF07#2@18"Process Info.plist416942997#416942997#0(0"0(0#0#51"/Users/student/Downloads/BASESDL2APPIPAD/Info.plist17237017856#493"    cd /Users/student/Downloads/BASESDL2APPIPAD    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Info.plist -genpkginfo /Users/student/Downloads/BASESDL2APPIPAD/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/student/Downloads/BASESDL2APPIPAD/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/Info.plist0#
 
 CTouch "/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/BASESDL2APPIPAD.app"
-r0
+s417553947.961089
+e417553947.965297
+r1
+xTouch
+x/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/BASESDL2APPIPAD.app
+lSLF07#2@94"Touch /Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/BASESDL2APPIPAD.app417553947#417553947#0(0"0(0#0#0"4321181696#294"    cd "/Users/student/Desktop/Invaders of space"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/BASESDL2APPIPAD.app"0#
 
 CTouch /Users/student/Downloads/BASESDL2APPIPAD/build/Debug-iphonesimulator/BASESDL2APPIPAD.app
 s416943004.764288

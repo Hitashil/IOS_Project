@@ -6,13 +6,6 @@
 			3F45F70B18DA0B9200F644E4 /* BASESDL2APPIPAD */,
 		);
 	};
-	201E26631537B76C00B5B1E1 /* common.cpp */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {519, 494}}";
-			sepNavSelRange = "{67, 0}";
-			sepNavVisRange = "{0, 247}";
-		};
-	};
 	2037C8101538CA2C0062F161 /* autohint.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {551, 2990}}";
@@ -51,15 +44,13 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 417454109;
-			PBXWorkspaceStateSaveDate = 417454109;
+			PBXPerProjectTemplateStateSaveDate = 417557277;
+			PBXWorkspaceStateSaveDate = 417557277;
 		};
 		perUserProjectItems = {
 			3F45F73718DA0C0100F644E4 /* PBXTextBookmark */ = 3F45F73718DA0C0100F644E4 /* PBXTextBookmark */;
 			3F45F73A18DA0C0100F644E4 /* PBXTextBookmark */ = 3F45F73A18DA0C0100F644E4 /* PBXTextBookmark */;
-			3F45F77118DA28BE00F644E4 /* PBXTextBookmark */ = 3F45F77118DA28BE00F644E4 /* PBXTextBookmark */;
-			3F45F77A18DA28C300F644E4 /* PBXTextBookmark */ = 3F45F77A18DA28C300F644E4 /* PBXTextBookmark */;
-			3F69EB2718E1D82000FF4791 /* PBXTextBookmark */ = 3F69EB2718E1D82000FF4791 /* PBXTextBookmark */;
+			3FFEB4AD18E35A8E00B09A64 /* PBXTextBookmark */ = 3FFEB4AD18E35A8E00B09A64 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 3F45F72F18DA0B9E00F644E4 /* Source Control */;
 		userBuildSettings = {
@@ -126,41 +117,13 @@
 		vrLen = 505;
 		vrLoc = 0;
 	};
-	3F45F77118DA28BE00F644E4 /* PBXTextBookmark */ = {
+	3FFEB4AD18E35A8E00B09A64 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 3F45F77218DA28BE00F644E4 /* common.h */;
-		name = "common.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 258;
-		vrLoc = 0;
-	};
-	3F45F77218DA28BE00F644E4 /* common.h */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.c.h;
-		name = common.h;
-		path = "/Users/student/Desktop/Invaders of space/common.h";
-		sourceTree = "<absolute>";
-	};
-	3F45F77A18DA28C300F644E4 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 201E26631537B76C00B5B1E1 /* common.cpp */;
 		name = "common.cpp: 4";
 		rLen = 0;
 		rLoc = 67;
 		rType = 0;
-		vrLen = 249;
-		vrLoc = 0;
-	};
-	3F69EB2718E1D82000FF4791 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 201E26631537B76C00B5B1E1 /* common.cpp */;
-		name = "common.cpp: 4";
-		rLen = 0;
-		rLoc = 67;
-		rType = 0;
-		vrLen = 247;
+		vrLen = 219;
 		vrLoc = 0;
 	};
 }

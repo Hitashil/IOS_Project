@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
-		201E26661537B76C00B5B1E1 /* common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 201E26631537B76C00B5B1E1 /* common.cpp */; };
 		201E26791537BA9000B5B1E1 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 201E26781537BA9000B5B1E1 /* ImageIO.framework */; };
 		201E267B1537BB2800B5B1E1 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 201E267A1537BB2800B5B1E1 /* MobileCoreServices.framework */; };
 		2037C89E1538CA2C0062F161 /* doxyfile in Resources */ = {isa = PBXBuildFile; fileRef = 2037C7DC1538CA2C0062F161 /* doxyfile */; };
@@ -21,7 +20,12 @@
 		205A7F0D18A6FBE900AE9848 /* libSDL2_ttf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 205A7EA918A6F14D00AE9848 /* libSDL2_ttf.a */; };
 		28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD14FF0DC6FC520079059D /* OpenGLES.framework */; };
 		28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD15070DC6FC5B0079059D /* QuartzCore.framework */; };
-		3FC0183E18DA13CC0096F1DB /* App.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0183C18DA13CC0096F1DB /* App.cpp */; };
+		3F06AD0F18EB14710067C948 /* maketext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F06AD0E18EB14710067C948 /* maketext.cpp */; };
+		3F06AD1218EB174D0067C948 /* music.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F06AD1118EB174D0067C948 /* music.cpp */; };
+		3F06AD1418EB183D0067C948 /* bitbop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3F06AD1318EB183D0067C948 /* bitbop.wav */; };
+		3F1677EB18E360FF005DE3E9 /* App.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F1677E818E360FF005DE3E9 /* App.cpp */; };
+		3F1677EC18E360FF005DE3E9 /* common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F1677E918E360FF005DE3E9 /* common.cpp */; };
+		3F1677ED18E360FF005DE3E9 /* Entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F1677EA18E360FF005DE3E9 /* Entity.cpp */; };
 		3FC0184118DA22110096F1DB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0183F18DA22110096F1DB /* main.cpp */; };
 		3FD3ED4618DA2BAD00A8D5F6 /* Background.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 3FD3ED4518DA2BAD00A8D5F6 /* Background.bmp */; };
 		3FD3ED4818DA2C5800A8D5F6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FD3ED4718DA2C5800A8D5F6 /* Info.plist */; };
@@ -35,7 +39,6 @@
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* BASESDL2APPIPAD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BASESDL2APPIPAD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		201E26631537B76C00B5B1E1 /* common.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = common.cpp; sourceTree = "<group>"; };
 		201E26781537BA9000B5B1E1 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		201E267A1537BB2800B5B1E1 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		2037C7DA1538CA2C0062F161 /* begin_code.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = begin_code.h; sourceTree = "<group>"; };
@@ -230,8 +233,17 @@
 		20DCD645176ABD9F00BF458F /* libvorbis.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libvorbis.a; sourceTree = "<group>"; };
 		28FD14FF0DC6FC520079059D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		28FD15070DC6FC5B0079059D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		3FC0183C18DA13CC0096F1DB /* App.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = App.cpp; sourceTree = "<group>"; };
-		3FC0183D18DA13CC0096F1DB /* App.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = App.h; sourceTree = "<group>"; };
+		3F06AD0D18EB14640067C948 /* maketext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = maketext.h; path = Includes/maketext.h; sourceTree = "<group>"; };
+		3F06AD0E18EB14710067C948 /* maketext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = maketext.cpp; path = Sources/maketext.cpp; sourceTree = "<group>"; };
+		3F06AD1018EB173E0067C948 /* music.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = music.h; path = Includes/music.h; sourceTree = "<group>"; };
+		3F06AD1118EB174D0067C948 /* music.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = music.cpp; path = Sources/music.cpp; sourceTree = "<group>"; };
+		3F06AD1318EB183D0067C948 /* bitbop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = bitbop.wav; path = Data/Sounds/bitbop.wav; sourceTree = "<group>"; };
+		3F1677E518E360E5005DE3E9 /* App.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = App.h; path = Includes/App.h; sourceTree = "<group>"; };
+		3F1677E618E360E5005DE3E9 /* common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = common.h; path = Includes/common.h; sourceTree = "<group>"; };
+		3F1677E718E360E5005DE3E9 /* Entity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Entity.h; path = Includes/Entity.h; sourceTree = "<group>"; };
+		3F1677E818E360FF005DE3E9 /* App.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = App.cpp; path = Sources/App.cpp; sourceTree = "<group>"; };
+		3F1677E918E360FF005DE3E9 /* common.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = common.cpp; path = Sources/common.cpp; sourceTree = "<group>"; };
+		3F1677EA18E360FF005DE3E9 /* Entity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Entity.cpp; path = Sources/Entity.cpp; sourceTree = "<group>"; };
 		3FC0183F18DA22110096F1DB /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = main.cpp; sourceTree = "<group>"; };
 		3FD3ED4518DA2BAD00A8D5F6 /* Background.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = Background.bmp; path = Data/Images/Background.bmp; sourceTree = "<group>"; };
 		3FD3ED4718DA2C5800A8D5F6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -530,6 +542,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				3F1677E418E36047005DE3E9 /* Includes */,
 				2037C7D81538CA2C0062F161 /* SDL */,
 				201E267A1537BB2800B5B1E1 /* MobileCoreServices.framework */,
 				201E26781537BA9000B5B1E1 /* ImageIO.framework */,
@@ -544,9 +557,11 @@
 		29B97315FDCFA39411CA2CEA /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				201E26631537B76C00B5B1E1 /* common.cpp */,
-				3FC0183C18DA13CC0096F1DB /* App.cpp */,
-				3FC0183D18DA13CC0096F1DB /* App.h */,
+				3F06AD1118EB174D0067C948 /* music.cpp */,
+				3F06AD0E18EB14710067C948 /* maketext.cpp */,
+				3F1677E818E360FF005DE3E9 /* App.cpp */,
+				3F1677E918E360FF005DE3E9 /* common.cpp */,
+				3F1677EA18E360FF005DE3E9 /* Entity.cpp */,
 				3FC0183F18DA22110096F1DB /* main.cpp */,
 			);
 			name = Sources;
@@ -555,6 +570,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				3F06AD1318EB183D0067C948 /* bitbop.wav */,
 				3FD3ED4718DA2C5800A8D5F6 /* Info.plist */,
 				3FD3ED4518DA2BAD00A8D5F6 /* Background.bmp */,
 				AF336A6A1395685A002A3104 /* AppleGothic.ttf */,
@@ -574,6 +590,18 @@
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F1677E418E36047005DE3E9 /* Includes */ = {
+			isa = PBXGroup;
+			children = (
+				3F06AD1018EB173E0067C948 /* music.h */,
+				3F06AD0D18EB14640067C948 /* maketext.h */,
+				3F1677E518E360E5005DE3E9 /* App.h */,
+				3F1677E618E360E5005DE3E9 /* common.h */,
+				3F1677E718E360E5005DE3E9 /* Entity.h */,
+			);
+			name = Includes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -632,6 +660,7 @@
 				2037C89E1538CA2C0062F161 /* doxyfile in Resources */,
 				2037C89F1538CA2C0062F161 /* SDL_config.h.in in Resources */,
 				3FD3ED4818DA2C5800A8D5F6 /* Info.plist in Resources */,
+				3F06AD1418EB183D0067C948 /* bitbop.wav in Resources */,
 				3FD3ED4618DA2BAD00A8D5F6 /* Background.bmp in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -643,9 +672,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FC0183E18DA13CC0096F1DB /* App.cpp in Sources */,
-				201E26661537B76C00B5B1E1 /* common.cpp in Sources */,
+				3F1677ED18E360FF005DE3E9 /* Entity.cpp in Sources */,
 				3FC0184118DA22110096F1DB /* main.cpp in Sources */,
+				3F1677EC18E360FF005DE3E9 /* common.cpp in Sources */,
+				3F1677EB18E360FF005DE3E9 /* App.cpp in Sources */,
+				3F06AD0F18EB14710067C948 /* maketext.cpp in Sources */,
+				3F06AD1218EB174D0067C948 /* music.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

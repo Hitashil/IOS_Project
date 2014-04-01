@@ -13,9 +13,14 @@
 #include <string>
 #include <cstdlib>
 #include <cstdio>
-#include "SDL.h"
 #include <time.h>
-//include "common.h"
+
+#include "maketext.h"
+#include "music.h"
+
+
+
+#include "SDL.h"
 #include "SDL_mixer.h"
 #include "SDL_image.h"
 
@@ -27,6 +32,10 @@ class App
         SDL_Renderer *renderer;
     
         bool runningGame;
+    
+    public:
+        Maketext text;
+        music musictest;
     
     public:
         App(void);

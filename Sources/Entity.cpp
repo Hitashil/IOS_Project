@@ -7,3 +7,30 @@
 //
 
 #include "Entity.h"
+
+Entity::Entity()
+{
+    
+}
+
+Entity::~Entity()
+{
+    
+}
+
+bool Entity::createEntity(const char *name, SDL_Renderer *renderer)
+{
+    surface = IMG_Load(name);
+    texture = SDL_CreateTextureFromSurface(renderer, surface);
+    return true;
+}
+
+void Entity::move()
+{
+    
+}
+
+void Entity::draw()
+{
+    
+}
