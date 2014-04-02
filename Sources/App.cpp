@@ -46,6 +46,8 @@ bool App::initialize()
     renderer = SDL_CreateRenderer(window, 0, 0);
     
     musictest.inialize_music("bitbop.wav", 1);
+    player1 = new Player(300, 300);
+    player1->createEntity("blah.png", renderer);
     
     return true;
 }
@@ -65,6 +67,7 @@ void App::draw()
     SDL_RenderClear(renderer);
     // draw inbetween here.
     text.display_text(renderer);
+    player1->draw(renderer);
     SDL_RenderPresent(renderer);
 }
 
@@ -95,5 +98,7 @@ void App::run()
         
         App::update();
         App::draw();
+        
+        SDL_Delay(10);
     }
 }

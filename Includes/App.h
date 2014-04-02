@@ -17,6 +17,7 @@
 
 #include "maketext.h"
 #include "music.h"
+#include "Player.h"
 
 
 
@@ -36,6 +37,7 @@ class App
     public:
         Maketext text;
         music musictest;
+        Player *player1;
     
     public:
         App(void);

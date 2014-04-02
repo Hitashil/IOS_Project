@@ -27,6 +27,7 @@
 		3F1677EC18E360FF005DE3E9 /* common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F1677E918E360FF005DE3E9 /* common.cpp */; };
 		3F1677ED18E360FF005DE3E9 /* Entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F1677EA18E360FF005DE3E9 /* Entity.cpp */; };
 		3FC0184118DA22110096F1DB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0183F18DA22110096F1DB /* main.cpp */; };
+		3FD1A68018EC811C00D81D38 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FD1A67E18EC811C00D81D38 /* Player.cpp */; };
 		3FD3ED4618DA2BAD00A8D5F6 /* Background.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 3FD3ED4518DA2BAD00A8D5F6 /* Background.bmp */; };
 		3FD3ED4818DA2C5800A8D5F6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FD3ED4718DA2C5800A8D5F6 /* Info.plist */; };
 		AF336A6B1395685A002A3104 /* AppleGothic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF336A6A1395685A002A3104 /* AppleGothic.ttf */; };
@@ -245,6 +246,8 @@
 		3F1677E918E360FF005DE3E9 /* common.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = common.cpp; path = Sources/common.cpp; sourceTree = "<group>"; };
 		3F1677EA18E360FF005DE3E9 /* Entity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Entity.cpp; path = Sources/Entity.cpp; sourceTree = "<group>"; };
 		3FC0183F18DA22110096F1DB /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = main.cpp; sourceTree = "<group>"; };
+		3FD1A67E18EC811C00D81D38 /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		3FD1A67F18EC811C00D81D38 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 		3FD3ED4518DA2BAD00A8D5F6 /* Background.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = Background.bmp; path = Data/Images/Background.bmp; sourceTree = "<group>"; };
 		3FD3ED4718DA2C5800A8D5F6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF336A6A1395685A002A3104 /* AppleGothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AppleGothic.ttf; sourceTree = "<group>"; };
@@ -557,6 +560,7 @@
 		29B97315FDCFA39411CA2CEA /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				3FD1A67E18EC811C00D81D38 /* Player.cpp */,
 				3F06AD1118EB174D0067C948 /* music.cpp */,
 				3F06AD0E18EB14710067C948 /* maketext.cpp */,
 				3F1677E818E360FF005DE3E9 /* App.cpp */,
@@ -595,6 +599,7 @@
 		3F1677E418E36047005DE3E9 /* Includes */ = {
 			isa = PBXGroup;
 			children = (
+				3FD1A67F18EC811C00D81D38 /* Player.h */,
 				3F06AD1018EB173E0067C948 /* music.h */,
 				3F06AD0D18EB14640067C948 /* maketext.h */,
 				3F1677E518E360E5005DE3E9 /* App.h */,
@@ -673,6 +678,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F1677ED18E360FF005DE3E9 /* Entity.cpp in Sources */,
+				3FD1A68018EC811C00D81D38 /* Player.cpp in Sources */,
 				3FC0184118DA22110096F1DB /* main.cpp in Sources */,
 				3F1677EC18E360FF005DE3E9 /* common.cpp in Sources */,
 				3F1677EB18E360FF005DE3E9 /* App.cpp in Sources */,

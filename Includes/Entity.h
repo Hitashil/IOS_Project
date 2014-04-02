@@ -22,12 +22,15 @@ class Entity
     
     public:
         Entity();
+        Entity(SDL_Rect rect);
+        Entity(int x, int y);
         ~Entity();
     
     public:
         virtual bool createEntity(const char *name, SDL_Renderer *renderer);
         virtual void move();
-        virtual void draw();
+        virtual void update();
+        virtual void draw(SDL_Renderer *renderer);
 };
 
 #endif /* defined(__BASESDL2APPIPAD__Entity__) */
