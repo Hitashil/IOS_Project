@@ -1,44 +1,58 @@
 #include "maketext.h"
 
-/*
 Maketext::Maketext()
 {
-
+    
 }
 
-Maketext::Maketext(int size, SDL_Rect rect)
+Maketext::Maketext(string text, int size, SDL_Rect rect, int r, int g, int b)
 {
-
+    this->text = text;
+    
+    textLocation = rect;
+    fontsize = size;
+    
+    colour.r = r;
+    colour.g = g;
+    colour.b = b;
+    
+    if (initialize_text() != 1)
+    {
+        printf("Error while loading text.");
+    }
 }
 
-Maketext::Maketext(int size, int x, int y, int w, int h)
+Maketext::Maketext(string text, int size, int x, int y, int w, int h, int r, int g, int b)
 {
-
+    this->text = text;
+    
+    textLocation.x = x;
+    textLocation.y = y;
+    textLocation.w = w;
+    textLocation.h = h;
+    
+    colour.r = r;
+    colour.g = g;
+    colour.b = b;
+    
+    fontsize = size;
+    
+    if (initialize_text() != 1)
+    {
+        printf("Error while loading text.");
+    }
 }
- */
 
-int Maketext::initialize_text(int size, int x, int y, int w, int h)
+int Maketext::initialize_text()
 {
     TTF_Init(); // Initializes SDL ttf.
 
-    Font = TTF_OpenFont("AppleGothic.ttf", size); // A size and the ttf (True Type Font).
+    Font = TTF_OpenFont("AppleGothic.ttf", fontsize); // A size and the ttf (True Type Font).
+    
     if (!Font)
     {
         return -1;
     }
-
-    textLocation.x = x;
-    textLocation.y = y;
-    textLocation.w = w;
-    textLocation.h = h;// Where the text will be.
-    
-    foregroundColor.r = 0;
-    foregroundColor.g = 0;
-    foregroundColor.b = 0; // foreground of the text.
-    
-    backgroundColor.r = 255;
-    backgroundColor.g = 255;
-    backgroundColor.b = 255; // Background of text.
     
     return 1;
 }
@@ -46,7 +60,7 @@ int Maketext::initialize_text(int size, int x, int y, int w, int h)
 void Maketext::display_text(SDL_Renderer *renderer)
 {
     //snprintf(instance.buffer,256, "Put text here",counter); // Add outside of class.
-    texts = TTF_RenderText_Shaded(Font, buffer, foregroundColor, backgroundColor); // Gives colour to the text.
+    texts = TTF_RenderText_Solid(Font, text.data(), colour); // Gives colour to the text.
     if (texts)
     {
         SDL_SetColorKey(texts,SDL_TRUE, 0);

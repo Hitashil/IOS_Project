@@ -8,19 +8,19 @@
 
 #include "App.h"
 
+int x = 5;
+
 App::App()
 {
     runningGame = true;
     
-    //Testing....
-    text.initialize_text(15, 150, 150, 50, 50);
-    snprintf(text.buffer, 256, "Put text here");
+    int_str << x;
+    
+    text = new Maketext("Hello, this is my text " + int_str.str(), 15, 300, 300, 150, 150, 255,0, 0);
 }
 
 App::~App()
 {
-    musictest.close_music();
-    
     // Shutdown SDL.
     SDL_Quit();
 }
@@ -45,16 +45,25 @@ bool App::initialize()
     
     renderer = SDL_CreateRenderer(window, 0, 0);
     
-    musictest.inialize_music("bitbop.wav", 1);
+    // Testing...
+    enemy = new Enemies(0, 0);
+    enemy->createEntity("panda.png", renderer);
     player1 = new Player(300, 300);
-    player1->createEntity("blah.png", renderer);
+    player1->createEntity("panda.png", renderer);
+    
+    bullets[0] = new Projectile(0, 400);
+    bullets[0]->createEntity("panda.png", renderer);
     
     return true;
 }
 
 void App::update_event(SDL_Event event)
 {
-
+    // For debug...
+    if(event.type == SDL_MOUSEBUTTONDOWN && event.button.button == 1)
+    {
+        
+    }
 }
 
 void App::update()
@@ -66,8 +75,11 @@ void App::draw()
 {
     SDL_RenderClear(renderer);
     // draw inbetween here.
-    text.display_text(renderer);
+    text->display_text(renderer);
     player1->draw(renderer);
+    enemy->draw(renderer);
+    bullets[0]->draw(renderer);
+    //
     SDL_RenderPresent(renderer);
 }
 

@@ -61,24 +61,24 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "23"
             endingLineNumber = "23"
-            landmarkName = "Entity::createEntity(const char *name, SDL_Renderer *renderer)"
+            landmarkName = "Entity::Entity(SDL_Rect rect)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Sources/App.cpp"
-            timestampString = "418060413.374141"
+            filePath = "Includes/Entity.h"
+            timestampString = "418154591.993909"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
-            landmarkName = "App::App()"
-            landmarkType = "5">
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "class Entity"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

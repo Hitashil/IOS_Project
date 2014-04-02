@@ -35,15 +35,15 @@
 class music
 {
 
-  private:
-
-    Mix_Chunk *music1;
-
-  public:
-
-    void inialize_music(const char file[], int loops);
-
-    void close_music();
+    private:
+        Mix_Chunk *music1;
+    
+    public:
+        void inialize_music(const char file[]);
+        void play_music(int loops);
+        void resume_music();
+        void pause_music();
+        void close_music();
 
 };
 

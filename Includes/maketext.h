@@ -33,6 +33,10 @@
 #include "SDL.h"
 #include "SDL_ttf.h"
 
+#include <string>
+
+using namespace std;
+
 class Maketext
 {
     protected:
@@ -41,21 +45,21 @@ class Maketext
 		SDL_Texture *textt;
 
     private:
-		SDL_Color foregroundColor;
-		SDL_Color backgroundColor;
+    int fontsize;
+		SDL_Color colour;
 		SDL_Rect textLocation;
 
 	public:
-    /*
 		Maketext();
 		~Maketext();
-		Maketext(int size, SDL_Rect rect);
-		Maketext(int size, int x, int y, int w, int h);
-     */
+		Maketext(string text, int size, SDL_Rect rect, int r, int g, int b);
+        Maketext(string text, int size, int x, int y, int w, int h, int r, int g, int b);
 
-		int initialize_text(int size, int x, int y, int w, int h); //  Sets up text.
+		int initialize_text(); //  Sets up text.
 		void display_text(SDL_Renderer *renderer); // Displays text.
-
+    
+        string text;
+    
 		char buffer[256]; // Where the text will be placed
 
 };

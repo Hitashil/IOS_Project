@@ -11,6 +11,7 @@
 
 #include <iostream>
 #include <string>
+#include <sstream>
 #include <cstdlib>
 #include <cstdio>
 #include <time.h>
@@ -18,12 +19,10 @@
 #include "maketext.h"
 #include "music.h"
 #include "Player.h"
-
-
+#include "Enemies.h"
+#include "Projectile.h"
 
 #include "SDL.h"
-#include "SDL_mixer.h"
-#include "SDL_image.h"
 
 class App
 {
@@ -34,10 +33,15 @@ class App
     
         bool runningGame;
     
+    private:
+        ostringstream int_str;
+    
     public:
-        Maketext text;
-        music musictest;
+        Maketext *text;
         Player *player1;
+        Enemies *enemy;
+        Projectile *bullets[3];
+    
     
     public:
         App(void);

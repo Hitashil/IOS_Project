@@ -20,15 +20,18 @@
 		205A7F0D18A6FBE900AE9848 /* libSDL2_ttf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 205A7EA918A6F14D00AE9848 /* libSDL2_ttf.a */; };
 		28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD14FF0DC6FC520079059D /* OpenGLES.framework */; };
 		28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD15070DC6FC5B0079059D /* QuartzCore.framework */; };
-		3F06AD0F18EB14710067C948 /* maketext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F06AD0E18EB14710067C948 /* maketext.cpp */; };
-		3F06AD1218EB174D0067C948 /* music.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F06AD1118EB174D0067C948 /* music.cpp */; };
 		3F06AD1418EB183D0067C948 /* bitbop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3F06AD1318EB183D0067C948 /* bitbop.wav */; };
 		3F1677EB18E360FF005DE3E9 /* App.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F1677E818E360FF005DE3E9 /* App.cpp */; };
 		3F1677EC18E360FF005DE3E9 /* common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F1677E918E360FF005DE3E9 /* common.cpp */; };
 		3F1677ED18E360FF005DE3E9 /* Entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F1677EA18E360FF005DE3E9 /* Entity.cpp */; };
 		3FC0184118DA22110096F1DB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0183F18DA22110096F1DB /* main.cpp */; };
-		3FD1A68018EC811C00D81D38 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FD1A67E18EC811C00D81D38 /* Player.cpp */; };
-		3FD3ED4618DA2BAD00A8D5F6 /* Background.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 3FD3ED4518DA2BAD00A8D5F6 /* Background.bmp */; };
+		3FD1A68218EC894600D81D38 /* Pop.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FD1A68118EC894600D81D38 /* Pop.png */; };
+		3FD1A68A18EC91E700D81D38 /* panda.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FD1A68918EC91E700D81D38 /* panda.png */; };
+		3FD1A69518ECA95500D81D38 /* Enemies.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FD1A69018ECA95500D81D38 /* Enemies.cpp */; };
+		3FD1A69618ECA95500D81D38 /* maketext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FD1A69118ECA95500D81D38 /* maketext.cpp */; };
+		3FD1A69718ECA95500D81D38 /* music.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FD1A69218ECA95500D81D38 /* music.cpp */; };
+		3FD1A69818ECA95500D81D38 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FD1A69318ECA95500D81D38 /* Player.cpp */; };
+		3FD1A69918ECA95500D81D38 /* Projectile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FD1A69418ECA95500D81D38 /* Projectile.cpp */; };
 		3FD3ED4818DA2C5800A8D5F6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FD3ED4718DA2C5800A8D5F6 /* Info.plist */; };
 		AF336A6B1395685A002A3104 /* AppleGothic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF336A6A1395685A002A3104 /* AppleGothic.ttf */; };
 		FD779EDE0E26BA1200F39101 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD779EDD0E26BA1200F39101 /* CoreAudio.framework */; };
@@ -234,10 +237,6 @@
 		20DCD645176ABD9F00BF458F /* libvorbis.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libvorbis.a; sourceTree = "<group>"; };
 		28FD14FF0DC6FC520079059D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		28FD15070DC6FC5B0079059D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		3F06AD0D18EB14640067C948 /* maketext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = maketext.h; path = Includes/maketext.h; sourceTree = "<group>"; };
-		3F06AD0E18EB14710067C948 /* maketext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = maketext.cpp; path = Sources/maketext.cpp; sourceTree = "<group>"; };
-		3F06AD1018EB173E0067C948 /* music.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = music.h; path = Includes/music.h; sourceTree = "<group>"; };
-		3F06AD1118EB174D0067C948 /* music.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = music.cpp; path = Sources/music.cpp; sourceTree = "<group>"; };
 		3F06AD1318EB183D0067C948 /* bitbop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = bitbop.wav; path = Data/Sounds/bitbop.wav; sourceTree = "<group>"; };
 		3F1677E518E360E5005DE3E9 /* App.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = App.h; path = Includes/App.h; sourceTree = "<group>"; };
 		3F1677E618E360E5005DE3E9 /* common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = common.h; path = Includes/common.h; sourceTree = "<group>"; };
@@ -246,9 +245,18 @@
 		3F1677E918E360FF005DE3E9 /* common.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = common.cpp; path = Sources/common.cpp; sourceTree = "<group>"; };
 		3F1677EA18E360FF005DE3E9 /* Entity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Entity.cpp; path = Sources/Entity.cpp; sourceTree = "<group>"; };
 		3FC0183F18DA22110096F1DB /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = main.cpp; sourceTree = "<group>"; };
-		3FD1A67E18EC811C00D81D38 /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
-		3FD1A67F18EC811C00D81D38 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
-		3FD3ED4518DA2BAD00A8D5F6 /* Background.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = Background.bmp; path = Data/Images/Background.bmp; sourceTree = "<group>"; };
+		3FD1A68118EC894600D81D38 /* Pop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Pop.png; path = Data/Images/Pop.png; sourceTree = "<group>"; };
+		3FD1A68918EC91E700D81D38 /* panda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = panda.png; path = Data/Images/panda.png; sourceTree = "<group>"; };
+		3FD1A68B18ECA93E00D81D38 /* Enemies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Enemies.h; path = Includes/Enemies.h; sourceTree = "<group>"; };
+		3FD1A68C18ECA93E00D81D38 /* maketext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = maketext.h; path = Includes/maketext.h; sourceTree = "<group>"; };
+		3FD1A68D18ECA93E00D81D38 /* music.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = music.h; path = Includes/music.h; sourceTree = "<group>"; };
+		3FD1A68E18ECA93E00D81D38 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Player.h; path = Includes/Player.h; sourceTree = "<group>"; };
+		3FD1A68F18ECA93E00D81D38 /* Projectile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Projectile.h; path = Includes/Projectile.h; sourceTree = "<group>"; };
+		3FD1A69018ECA95500D81D38 /* Enemies.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Enemies.cpp; path = Sources/Enemies.cpp; sourceTree = "<group>"; };
+		3FD1A69118ECA95500D81D38 /* maketext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = maketext.cpp; path = Sources/maketext.cpp; sourceTree = "<group>"; };
+		3FD1A69218ECA95500D81D38 /* music.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = music.cpp; path = Sources/music.cpp; sourceTree = "<group>"; };
+		3FD1A69318ECA95500D81D38 /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Player.cpp; path = Sources/Player.cpp; sourceTree = "<group>"; };
+		3FD1A69418ECA95500D81D38 /* Projectile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Projectile.cpp; path = Sources/Projectile.cpp; sourceTree = "<group>"; };
 		3FD3ED4718DA2C5800A8D5F6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF336A6A1395685A002A3104 /* AppleGothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AppleGothic.ttf; sourceTree = "<group>"; };
 		FD779EDD0E26BA1200F39101 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
@@ -560,9 +568,11 @@
 		29B97315FDCFA39411CA2CEA /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				3FD1A67E18EC811C00D81D38 /* Player.cpp */,
-				3F06AD1118EB174D0067C948 /* music.cpp */,
-				3F06AD0E18EB14710067C948 /* maketext.cpp */,
+				3FD1A69018ECA95500D81D38 /* Enemies.cpp */,
+				3FD1A69118ECA95500D81D38 /* maketext.cpp */,
+				3FD1A69218ECA95500D81D38 /* music.cpp */,
+				3FD1A69318ECA95500D81D38 /* Player.cpp */,
+				3FD1A69418ECA95500D81D38 /* Projectile.cpp */,
 				3F1677E818E360FF005DE3E9 /* App.cpp */,
 				3F1677E918E360FF005DE3E9 /* common.cpp */,
 				3F1677EA18E360FF005DE3E9 /* Entity.cpp */,
@@ -574,9 +584,10 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				3FD1A68918EC91E700D81D38 /* panda.png */,
+				3FD1A68118EC894600D81D38 /* Pop.png */,
 				3F06AD1318EB183D0067C948 /* bitbop.wav */,
 				3FD3ED4718DA2C5800A8D5F6 /* Info.plist */,
-				3FD3ED4518DA2BAD00A8D5F6 /* Background.bmp */,
 				AF336A6A1395685A002A3104 /* AppleGothic.ttf */,
 			);
 			name = Resources;
@@ -599,9 +610,11 @@
 		3F1677E418E36047005DE3E9 /* Includes */ = {
 			isa = PBXGroup;
 			children = (
-				3FD1A67F18EC811C00D81D38 /* Player.h */,
-				3F06AD1018EB173E0067C948 /* music.h */,
-				3F06AD0D18EB14640067C948 /* maketext.h */,
+				3FD1A68B18ECA93E00D81D38 /* Enemies.h */,
+				3FD1A68C18ECA93E00D81D38 /* maketext.h */,
+				3FD1A68D18ECA93E00D81D38 /* music.h */,
+				3FD1A68E18ECA93E00D81D38 /* Player.h */,
+				3FD1A68F18ECA93E00D81D38 /* Projectile.h */,
 				3F1677E518E360E5005DE3E9 /* App.h */,
 				3F1677E618E360E5005DE3E9 /* common.h */,
 				3F1677E718E360E5005DE3E9 /* Entity.h */,
@@ -661,12 +674,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FD1A68A18EC91E700D81D38 /* panda.png in Resources */,
 				AF336A6B1395685A002A3104 /* AppleGothic.ttf in Resources */,
+				3FD1A68218EC894600D81D38 /* Pop.png in Resources */,
 				2037C89E1538CA2C0062F161 /* doxyfile in Resources */,
 				2037C89F1538CA2C0062F161 /* SDL_config.h.in in Resources */,
 				3FD3ED4818DA2C5800A8D5F6 /* Info.plist in Resources */,
 				3F06AD1418EB183D0067C948 /* bitbop.wav in Resources */,
-				3FD3ED4618DA2BAD00A8D5F6 /* Background.bmp in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -677,13 +691,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FD1A69818ECA95500D81D38 /* Player.cpp in Sources */,
+				3FD1A69618ECA95500D81D38 /* maketext.cpp in Sources */,
 				3F1677ED18E360FF005DE3E9 /* Entity.cpp in Sources */,
-				3FD1A68018EC811C00D81D38 /* Player.cpp in Sources */,
 				3FC0184118DA22110096F1DB /* main.cpp in Sources */,
+				3FD1A69518ECA95500D81D38 /* Enemies.cpp in Sources */,
+				3FD1A69918ECA95500D81D38 /* Projectile.cpp in Sources */,
 				3F1677EC18E360FF005DE3E9 /* common.cpp in Sources */,
+				3FD1A69718ECA95500D81D38 /* music.cpp in Sources */,
 				3F1677EB18E360FF005DE3E9 /* App.cpp in Sources */,
-				3F06AD0F18EB14710067C948 /* maketext.cpp in Sources */,
-				3F06AD1218EB174D0067C948 /* music.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
