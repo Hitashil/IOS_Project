@@ -45,7 +45,8 @@ class Maketext
 		SDL_Texture *textt;
 
     private:
-    int fontsize;
+        string text;
+        int fontsize;
 		SDL_Color colour;
 		SDL_Rect textLocation;
 
@@ -57,11 +58,6 @@ class Maketext
 
 		int initialize_text(); //  Sets up text.
 		void display_text(SDL_Renderer *renderer); // Displays text.
-    
-        string text;
-    
-		char buffer[256]; // Where the text will be placed
-
 };
 
 #endif

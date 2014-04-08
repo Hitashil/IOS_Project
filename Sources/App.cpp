@@ -8,15 +8,25 @@
 
 #include "App.h"
 
-int x = 5;
+float x = 5.56;
+
+template <typename T>
+string toString(T num)
+{
+    ostringstream int_str;
+    string str;
+    
+    int_str << num;
+    
+    str = int_str.str();
+    return str;
+}
 
 App::App()
 {
     runningGame = true;
     
-    int_str << x;
-    
-    text = new Maketext("Hello, this is my text " + int_str.str(), 15, 300, 300, 150, 150, 255,0, 0);
+    text = new Maketext("Hello " + toString(x), 15, 150, 300, 150, 150, 255,0, 0);
 }
 
 App::~App()
@@ -74,12 +84,14 @@ void App::update()
 void App::draw()
 {
     SDL_RenderClear(renderer);
+    
     // draw inbetween here.
     text->display_text(renderer);
     player1->draw(renderer);
     enemy->draw(renderer);
     bullets[0]->draw(renderer);
     //
+    
     SDL_RenderPresent(renderer);
 }
 

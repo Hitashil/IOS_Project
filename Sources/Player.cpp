@@ -22,3 +22,8 @@ Player::Player(SDL_Rect rect) : Entity(rect)
 {
     
 }
+
+void Player::shootBullet()
+{
+    
+}

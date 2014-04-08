@@ -9,6 +9,9 @@
 #ifndef __BASESDL2APPIPAD__App__
 #define __BASESDL2APPIPAD__App__
 
+#define MAXENEMIES 10
+#define MAXPROJEC 3
+
 #include <iostream>
 #include <string>
 #include <sstream>
@@ -32,9 +35,6 @@ class App
         SDL_Renderer *renderer;
     
         bool runningGame;
-    
-    private:
-        ostringstream int_str;
     
     public:
         Maketext *text;

@@ -22,6 +22,9 @@ class Player : public Entity
         Player(int x, int y);
         Player(SDL_Rect rect);
         ~Player();
+    
+    public:
+        void shootBullet();
 };
 
 #endif /* defined(__BASESDL2APPIPAD__Player__) */
