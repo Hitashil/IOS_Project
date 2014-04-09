@@ -19,6 +19,7 @@
 #include <cstdio>
 #include <time.h>
 
+#include "Background.h"
 #include "maketext.h"
 #include "music.h"
 #include "Player.h"
@@ -34,13 +35,24 @@ class App
         SDL_Window *window;
         SDL_Renderer *renderer;
     
+        SDL_Joystick *joystick;
+    
         bool runningGame;
     
     public:
-        Maketext *text;
+        Background *bg;
+    
         Player *player1;
         Enemies *enemy;
-        Projectile *bullets[3];
+        Projectile *bullets[MAXPROJEC];
+    
+    
+    public://Josh
+        int points = 0;
+        int life = 3;
+        Maketext *score;
+        Maketext *lives;
+        music background;
     
     
     public:
@@ -51,6 +63,7 @@ class App
     private:
         bool initialize();
         void update_event(SDL_Event event);
+        void post_update();
         void update();
         void draw();
 };

@@ -18,13 +18,16 @@
 class Player : public Entity
 {
     public:
+        SDL_Rect move;
+    
+    public:
         Player();
         Player(int x, int y);
         Player(SDL_Rect rect);
         ~Player();
     
     public:
-        void shootBullet();
+        void movePlayer(SDL_Joystick *joystick);
 };
 
 #endif /* defined(__BASESDL2APPIPAD__Player__) */

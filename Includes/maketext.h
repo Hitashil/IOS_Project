@@ -57,6 +57,7 @@ class Maketext
         Maketext(string text, int size, int x, int y, int w, int h, int r, int g, int b);
 
 		int initialize_text(); //  Sets up text.
+        void set_text(string text);
 		void display_text(SDL_Renderer *renderer); // Displays text.
 };
 

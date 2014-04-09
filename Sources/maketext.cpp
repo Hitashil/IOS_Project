@@ -57,6 +57,11 @@ int Maketext::initialize_text()
     return 1;
 }
 
+void Maketext::set_text(string text)
+{
+    this->text = text;
+}
+
 void Maketext::display_text(SDL_Renderer *renderer)
 {
     //snprintf(instance.buffer,256, "Put text here",counter); // Add outside of class.

@@ -8,8 +8,6 @@
 
 #include "App.h"
 
-float x = 5.56;
-
 template <typename T>
 string toString(T num)
 {
@@ -25,8 +23,8 @@ string toString(T num)
 App::App()
 {
     runningGame = true;
-    
-    text = new Maketext("Hello " + toString(x), 15, 150, 300, 150, 150, 255,0, 0);
+    score = new Maketext("Score: " + toString(points), 32, 10,0,100,32,255,255,255);
+    lives = new Maketext("Lives: " + toString(life), 32, 425,0,75,32,255,255,255);
 }
 
 App::~App()
@@ -55,14 +53,29 @@ bool App::initialize()
     
     renderer = SDL_CreateRenderer(window, 0, 0);
     
-    // Testing...
-    enemy = new Enemies(0, 0);
-    enemy->createEntity("panda.png", renderer);
-    player1 = new Player(300, 300);
-    player1->createEntity("panda.png", renderer);
+    SDL_JoystickEventState(SDL_ENABLE);
+    joystick = SDL_JoystickOpen(0);
     
-    bullets[0] = new Projectile(0, 400);
-    bullets[0]->createEntity("panda.png", renderer);
+    // Background
+    bg = new Background(0, 0);
+    bg->createEntity("spacedJamiPhoneBackground.png", renderer);
+    
+    // Player.
+    player1 = new Player((SCREEN_RECT.w/2) - 50, 780);
+    player1->createEntity("ship1.PNG", renderer);
+    
+    //Player Projectile
+    
+    for (int i = 0; i < MAXPROJEC; i++)
+    {
+        bullets[i] = new Projectile(player1->rect.x + 68,820);
+        bullets[i]->createEntity("spacedJamPlayerLaser.png", renderer);
+    }
+    
+    
+    //josh
+    background.inialize_music("bitbop.wav");
+    background.play_music(-1);
     
     return true;
 }
@@ -74,6 +87,15 @@ void App::update_event(SDL_Event event)
     {
         
     }
+
+    // Joystick movement.
+    SDL_JoystickUpdate();
+    player1->movePlayer(joystick);
+}
+
+void App::post_update()
+{
+    
 }
 
 void App::update()
@@ -85,12 +107,19 @@ void App::draw()
 {
     SDL_RenderClear(renderer);
     
-    // draw inbetween here.
-    text->display_text(renderer);
+    bg->draw(renderer);
+    
+    for (int i = 0; i < MAXPROJEC; i++)
+    {
+        bullets[i]->draw(renderer);
+    }
+    
     player1->draw(renderer);
-    enemy->draw(renderer);
-    bullets[0]->draw(renderer);
-    //
+    
+    score->display_text(renderer);
+    lives->display_text(renderer);
+    
+    // draw inbetween here.
     
     SDL_RenderPresent(renderer);
 }
@@ -120,7 +149,10 @@ void App::run()
                 App::update_event(event);
         }
         
+        
+        App::post_update();
         App::update();
+        
         App::draw();
         
         SDL_Delay(10);
