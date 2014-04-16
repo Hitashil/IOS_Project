@@ -42,16 +42,6 @@ bool Entity::createEntity(const char *name, SDL_Renderer *renderer)
     return true;
 }
 
-void Entity::update()
-{
-    
-}
-
-void Entity::move()
-{
-    
-}
-
 void Entity::draw(SDL_Renderer *renderer)
 {
     SDL_RenderCopy(renderer, texture, NULL, &rect);

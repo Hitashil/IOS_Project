@@ -23,16 +23,25 @@ Player::Player(SDL_Rect rect) : Entity(rect)
     
 }
 
-void Player::movePlayer(SDL_Joystick *joystick)
+void Player::collision(int x, int y)
 {
-    move.x = SDL_JoystickGetAxis(joystick, 1);
+    if ( rect.x <= 0 )
+        rect.x = 0;
+    if ( ( rect.x + rect.w ) >= x )
+        rect.x = x - rect.w;
+        
+}
+
+void Player::update(SDL_Event event, SDL_Joystick *joystick)
+{
+    move.x = SDL_JoystickGetAxis(joystick, 0);
     
     if (move.x >= 3200)
     {
-        rect.x++;
+        rect.x += 5;
     }
     else if (move.x <= -3200)
     {
-        rect.x--;
+        rect.x -= 5;
     }
 }

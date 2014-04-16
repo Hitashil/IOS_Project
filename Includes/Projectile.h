@@ -17,11 +17,17 @@
 
 class Projectile : public Entity
 {
-public:
-    Projectile();
-    Projectile(int x, int y);
-    Projectile(SDL_Rect rect);
-    ~Projectile();
+    public:
+        Projectile();
+        Projectile(int x, int y);
+        Projectile(SDL_Rect rect);
+        ~Projectile();
+    
+    public:
+        bool go;
+        SDL_Rect originalRect;
+        void collision(int x, int y);
+        void moveProjec();
 };
 
 #endif /* defined(__BASESDL2APPIPAD__Projectile__) */

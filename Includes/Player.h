@@ -27,7 +27,8 @@ class Player : public Entity
         ~Player();
     
     public:
-        void movePlayer(SDL_Joystick *joystick);
+        void collision(int x, int y);
+        void update(SDL_Event event ,SDL_Joystick *joystick);
 };
 
 #endif /* defined(__BASESDL2APPIPAD__Player__) */

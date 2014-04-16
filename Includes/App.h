@@ -54,6 +54,8 @@ class App
         Maketext *lives;
         music background;
     
+    public:
+        int bulletIndex;
     
     public:
         App(void);

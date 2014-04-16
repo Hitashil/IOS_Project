@@ -10,15 +10,36 @@
 
 Projectile::Projectile() : Entity()
 {
-    
+    go = false;
+    originalRect = rect;
 }
 
 Projectile::Projectile(int x, int y) : Entity(x, y)
 {
-    
+    go = false;
+    originalRect = rect;
 }
 
 Projectile::Projectile(SDL_Rect rect) : Entity(rect)
 {
-    
+    go = false;
+    originalRect = rect;
+}
+
+void Projectile::collision(int x, int y)
+{
+    if (go && (rect.y + rect.h) <= 0)
+    {
+        go = false;
+        rect.x = originalRect.x;
+        rect.y = originalRect.y;
+    }
+}
+
+void Projectile::moveProjec()
+{
+    if (go)
+    {
+        rect.y -= 5;
+    }
 }

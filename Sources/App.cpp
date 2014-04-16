@@ -23,8 +23,7 @@ string toString(T num)
 App::App()
 {
     runningGame = true;
-    score = new Maketext("Score: " + toString(points), 32, 10,0,100,32,255,255,255);
-    lives = new Maketext("Lives: " + toString(life), 32, 425,0,75,32,255,255,255);
+    bulletIndex = 0;
 }
 
 App::~App()
@@ -60,16 +59,18 @@ bool App::initialize()
     bg = new Background(0, 0);
     bg->createEntity("spacedJamiPhoneBackground.png", renderer);
     
+    score = new Maketext("Score: " + toString(points), 32, 10,0,100,32,255,255,255);
+    lives = new Maketext("Lives: " + toString(life), 32, 425,0,75,32,255,255,255);
+    
     // Player.
-    player1 = new Player((SCREEN_RECT.w/2) - 50, 780);
+    player1 = new Player((SCREEN_RECT.w/2) - 50, SCREEN_RECT.h - 150);
     player1->createEntity("ship1.PNG", renderer);
     
     //Player Projectile
-    
     for (int i = 0; i < MAXPROJEC; i++)
     {
         bullets[i] = new Projectile(player1->rect.x + 68,820);
-        bullets[i]->createEntity("spacedJamPlayerLaser.png", renderer);
+        bullets[i]->createEntity("SpacedJamPlayerLaser.png", renderer);
     }
     
     
@@ -82,20 +83,35 @@ bool App::initialize()
 
 void App::update_event(SDL_Event event)
 {
-    // For debug...
     if(event.type == SDL_MOUSEBUTTONDOWN && event.button.button == 1)
     {
+        bulletIndex++;
         
+        if (bulletIndex >= MAXPROJEC)
+        {
+            bulletIndex = 0;
+        }
+        
+        bullets[bulletIndex]->go = true;
+        
+        bullets[bulletIndex]->rect.x = player1->rect.x + 68;
     }
 
     // Joystick movement.
     SDL_JoystickUpdate();
-    player1->movePlayer(joystick);
+    player1->update(event, joystick);
+    
+    for (int i = 0; i < MAXPROJEC; i++)
+        bullets[i]->moveProjec();
 }
 
 void App::post_update()
 {
+    player1->collision(SCREEN_RECT.w, SCREEN_RECT.h);
     
+    
+    for (int i = 0; i < MAXPROJEC; i++)
+        bullets[i]->collision(SCREEN_RECT.w, SCREEN_RECT.h);
 }
 
 void App::update()
@@ -111,7 +127,8 @@ void App::draw()
     
     for (int i = 0; i < MAXPROJEC; i++)
     {
-        bullets[i]->draw(renderer);
+        if (bullets[i]->go)
+            bullets[i]->draw(renderer);
     }
     
     player1->draw(renderer);

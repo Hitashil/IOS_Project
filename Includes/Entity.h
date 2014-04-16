@@ -28,8 +28,6 @@ class Entity
     
     public:
         virtual bool createEntity(const char *name, SDL_Renderer *renderer);
-        virtual void move();
-        virtual void update();
         virtual void draw(SDL_Renderer *renderer);
 };
 

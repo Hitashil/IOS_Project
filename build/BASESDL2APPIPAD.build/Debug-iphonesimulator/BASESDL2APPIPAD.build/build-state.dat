@@ -181,6 +181,1052 @@ c000000004A119834000000000000BECA
 t1242667060
 s48842
 
+N/Users/student/Desktop/IOS_Project-develop/AppleGothic.ttf
+c00000000534580720000000000EAE718
+t1397063794
+s15394584
+
+N/Users/student/Desktop/IOS_Project-develop/Data/Images/Bullet.png
+c00000000534580720000000000006444
+t1397063794
+s25668
+
+N/Users/student/Desktop/IOS_Project-develop/Data/Images/Pop.png
+c000000005345807200000000000878B0
+t1397063794
+s555184
+
+N/Users/student/Desktop/IOS_Project-develop/Data/Images/SpacedJamPlayerLaser.png
+c0000000053458072000000000000009E
+t1397063794
+s158
+
+N/Users/student/Desktop/IOS_Project-develop/Data/Images/panda.png
+c00000000534580720000000000003C32
+t1397063794
+s15410
+
+N/Users/student/Desktop/IOS_Project-develop/Data/Images/ship1.PNG
+c00000000534580720000000000006B4A
+t1397063794
+s27466
+
+N/Users/student/Desktop/IOS_Project-develop/Data/Images/ship1blue.PNG
+c00000000534580720000000000006DE8
+t1397063794
+s28136
+
+N/Users/student/Desktop/IOS_Project-develop/Data/Images/ship1green.PNG
+c00000000534580720000000000006BB4
+t1397063794
+s27572
+
+N/Users/student/Desktop/IOS_Project-develop/Data/Images/ship2.png
+c0000000053458072000000000001D9D6
+t1397063794
+s121302
+
+N/Users/student/Desktop/IOS_Project-develop/Data/Images/spacedJamEnemyShip.png
+c000000005345807200000000000010A3
+t1397063794
+s4259
+
+N/Users/student/Desktop/IOS_Project-develop/Data/Images/spacedJamJamBlob.png
+c000000005345807200000000000009B8
+t1397063794
+s2488
+
+N/Users/student/Desktop/IOS_Project-develop/Data/Images/spacedJamPlayerShip.png
+c00000000534580720000000000000C3B
+t1397063794
+s3131
+
+N/Users/student/Desktop/IOS_Project-develop/Data/Images/spacedJamiPhoneBackground.png
+c00000000534580720000000000001FE5
+t1397063794
+s8165
+
+N/Users/student/Desktop/IOS_Project-develop/Data/Sounds/bitbop.wav
+c000000005345807200000000018764B8
+t1397063794
+s25650360
+
+N/Users/student/Desktop/IOS_Project-develop/Data/Sounds/laser1.wav
+c00000000534580720000000000004190
+t1397063794
+s16784
+
+N/Users/student/Desktop/IOS_Project-develop/Data/Sounds/laser10.wav
+c00000000534580720000000000003FB6
+t1397063794
+s16310
+
+N/Users/student/Desktop/IOS_Project-develop/Data/Sounds/laser11.wav
+c0000000053458072000000000000674C
+t1397063794
+s26444
+
+N/Users/student/Desktop/IOS_Project-develop/Data/Sounds/laser13.wav
+c0000000053458072000000000000A4B6
+t1397063794
+s42166
+
+N/Users/student/Desktop/IOS_Project-develop/Data/Sounds/laser2.wav
+c0000000053458072000000000001E944
+t1397063794
+s125252
+
+N/Users/student/Desktop/IOS_Project-develop/Data/Sounds/laser3.wav
+c000000005345807200000000000040F2
+t1397063794
+s16626
+
+N/Users/student/Desktop/IOS_Project-develop/Data/Sounds/laser4_0-2.wav
+c00000000534580720000000000003050
+t1397063794
+s12368
+
+N/Users/student/Desktop/IOS_Project-develop/Data/Sounds/laser4_0.wav
+c00000000534580720000000000003050
+t1397063794
+s12368
+
+N/Users/student/Desktop/IOS_Project-develop/Data/Sounds/laser5.wav
+c000000005345807200000000000070AA
+t1397063794
+s28842
+
+N/Users/student/Desktop/IOS_Project-develop/Data/Sounds/laser6.wav
+c00000000534580720000000000008D78
+t1397063794
+s36216
+
+N/Users/student/Desktop/IOS_Project-develop/Data/Sounds/laser7.wav
+c0000000053458072000000000000274C
+t1397063794
+s10060
+
+N/Users/student/Desktop/IOS_Project-develop/Data/Sounds/laser8-2.wav
+c0000000053458072000000000000B070
+t1397063794
+s45168
+
+N/Users/student/Desktop/IOS_Project-develop/Data/Sounds/laser8.wav
+c0000000053458072000000000000B070
+t1397063794
+s45168
+
+N/Users/student/Desktop/IOS_Project-develop/Data/Sounds/laser9.wav
+c00000000534580720000000000006416
+t1397063794
+s25622
+
+N/Users/student/Desktop/IOS_Project-develop/Data/Sounds/laser_shooting_sfx.wav
+c000000005345807200000000000022FE
+t1397063794
+s8958
+
+N/Users/student/Desktop/IOS_Project-develop/Data/Sounds/pew pew pew sound 2.wav
+c000000005345807200000000000C402E
+t1397063794
+s802862
+
+N/Users/student/Desktop/IOS_Project-develop/Data/Sounds/pew pew pew sound.wav
+c000000005345807200000000000C402E
+t1397063794
+s802862
+
+N/Users/student/Desktop/IOS_Project-develop/Includes/App.h
+c000000005345807200000000000004BE
+t1397063794
+s1214
+i<iostream>
+i<string>
+i<sstream>
+i<cstdlib>
+i<cstdio>
+i<time.h>
+i"Background.h"
+i"maketext.h"
+i"music.h"
+i"Player.h"
+i"Enemies.h"
+i"Projectile.h"
+i"SDL.h"
+
+N/Users/student/Desktop/IOS_Project-develop/Includes/Background.h
+c00000000534580720000000000000197
+t1397063794
+s407
+i<iostream>
+i"Entity.h"
+
+N/Users/student/Desktop/IOS_Project-develop/Includes/Enemies.h
+c000000005345807200000000000001A5
+t1397063794
+s421
+i<iostream>
+i"SDL.h"
+i"SDL_image.h"
+i"Entity.h"
+
+N/Users/student/Desktop/IOS_Project-develop/Includes/Entity.h
+c000000005345807200000000000002BE
+t1397063794
+s702
+i<iostream>
+i"SDL.h"
+i"SDL_image.h"
+
+N/Users/student/Desktop/IOS_Project-develop/Includes/Player.h
+c00000000534ECD5C000000000000023E
+t1397673308
+s574
+i<iostream>
+i"SDL.h"
+i"SDL_image.h"
+i"Entity.h"
+
+N/Users/student/Desktop/IOS_Project-develop/Includes/Projectile.h
+c000000005345807200000000000001C2
+t1397063794
+s450
+i<iostream>
+i"SDL.h"
+i"SDL_image.h"
+i"Entity.h"
+
+N/Users/student/Desktop/IOS_Project-develop/Includes/maketext.h
+c000000005345807200000000000004B3
+t1397063794
+s1203
+i"SDL.h"
+i"SDL_ttf.h"
+i<string>
+
+N/Users/student/Desktop/IOS_Project-develop/Includes/music.h
+c0000000053458072000000000000041C
+t1397063794
+s1052
+i"SDL.h"
+i"SDL_mixer.h"
+
+N/Users/student/Desktop/IOS_Project-develop/Info.plist
+c0000000053458072000000000000045C
+t1397063794
+s1116
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL.h
+c000000005345807200000000000014FE
+t1397063794
+s5374
+i"SDL_main.h"
+i"SDL_stdinc.h"
+i"SDL_assert.h"
+i"SDL_atomic.h"
+i"SDL_audio.h"
+i"SDL_clipboard.h"
+i"SDL_cpuinfo.h"
+i"SDL_endian.h"
+i"SDL_error.h"
+i"SDL_events.h"
+i"SDL_filesystem.h"
+i"SDL_joystick.h"
+i"SDL_gamecontroller.h"
+i"SDL_haptic.h"
+i"SDL_hints.h"
+i"SDL_loadso.h"
+i"SDL_log.h"
+i"SDL_messagebox.h"
+i"SDL_mutex.h"
+i"SDL_power.h"
+i"SDL_render.h"
+i"SDL_rwops.h"
+i"SDL_system.h"
+i"SDL_thread.h"
+i"SDL_timer.h"
+i"SDL_version.h"
+i"SDL_video.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_assert.h
+c000000005345807200000000000029D5
+t1397063794
+s10709
+i"SDL_config.h"
+i"begin_code.h"
+i<signal.h>
+i"close_code.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_atomic.h
+c00000000534580720000000000002338
+t1397063794
+s9016
+i"SDL_stdinc.h"
+i"SDL_platform.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_audio.h
+c00000000534580720000000000004E9C
+t1397063794
+s20124
+i"SDL_stdinc.h"
+i"SDL_error.h"
+i"SDL_endian.h"
+i"SDL_mutex.h"
+i"SDL_thread.h"
+i"SDL_rwops.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_blendmode.h
+c000000005345807200000000000008C8
+t1397063794
+s2248
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_clipboard.h
+c000000005345807200000000000007AE
+t1397063794
+s1966
+i"SDL_stdinc.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_config.h
+c000000005345807200000000000006BF
+t1397063794
+s1727
+i"SDL_platform.h"
+i"SDL_config_premake.h"
+i"SDL_config_windows.h"
+i"SDL_config_macosx.h"
+i"SDL_config_iphoneos.h"
+i"SDL_config_android.h"
+i"SDL_config_psp.h"
+i"SDL_config_minimal.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_config.h.in
+c00000000534580720000000000002207
+t1397063794
+s8711
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_config_android.h
+c00000000534580720000000000000EBC
+t1397063794
+s3772
+i"SDL_platform.h"
+i<stdarg.h>
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_config_iphoneos.h
+c0000000053458072000000000000105E
+t1397063794
+s4190
+i"SDL_platform.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_config_macosx.h
+c00000000534580720000000000001499
+t1397063794
+s5273
+i"SDL_platform.h"
+i<AvailabilityMacros.h>
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_config_minimal.h
+c00000000534580720000000000000A25
+t1397063794
+s2597
+i"SDL_platform.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_config_psp.h
+c00000000534580720000000000000E40
+t1397063794
+s3648
+i"SDL_platform.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_config_windows.h
+c00000000534580720000000000001525
+t1397063794
+s5413
+i"SDL_platform.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_cpuinfo.h
+c00000000534580720000000000000FB2
+t1397063794
+s4018
+i"SDL_stdinc.h"
+i<intrin.h>
+i<intrin.h>
+i<altivec.h>
+i<mmintrin.h>
+i<mm3dnow.h>
+i<xmmintrin.h>
+i<emmintrin.h>
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_endian.h
+c0000000053458072000000000000173A
+t1397063794
+s5946
+i"SDL_stdinc.h"
+i<endian.h>
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_error.h
+c000000005345807200000000000008AC
+t1397063794
+s2220
+i"SDL_stdinc.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_events.h
+c0000000053458072000000000000652C
+t1397063794
+s25900
+i"SDL_stdinc.h"
+i"SDL_error.h"
+i"SDL_video.h"
+i"SDL_keyboard.h"
+i"SDL_mouse.h"
+i"SDL_joystick.h"
+i"SDL_gamecontroller.h"
+i"SDL_quit.h"
+i"SDL_gesture.h"
+i"SDL_touch.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_filesystem.h
+c00000000534580720000000000001483
+t1397063794
+s5251
+i"SDL_stdinc.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_gamecontroller.h
+c00000000534580720000000000002900
+t1397063794
+s10496
+i"SDL_stdinc.h"
+i"SDL_error.h"
+i"SDL_rwops.h"
+i"SDL_joystick.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_gesture.h
+c0000000053458072000000000000086D
+t1397063794
+s2157
+i"SDL_stdinc.h"
+i"SDL_error.h"
+i"SDL_video.h"
+i"SDL_touch.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_haptic.h
+c0000000053458072000000000000965E
+t1397063794
+s38494
+i"SDL_stdinc.h"
+i"SDL_error.h"
+i"SDL_joystick.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_hints.h
+c00000000534580720000000000003D45
+t1397063794
+s15685
+i"SDL_stdinc.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_image.h
+c000000005345807200000000000017CC
+t1397063794
+s6092
+i"SDL.h"
+i"SDL_version.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_joystick.h
+c00000000534580720000000000001FD3
+t1397063794
+s8147
+i"SDL_stdinc.h"
+i"SDL_error.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_keyboard.h
+c00000000534580720000000000001921
+t1397063794
+s6433
+i"SDL_stdinc.h"
+i"SDL_error.h"
+i"SDL_keycode.h"
+i"SDL_video.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_keycode.h
+c000000005345807200000000000039FF
+t1397063794
+s14847
+i"SDL_stdinc.h"
+i"SDL_scancode.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_loadso.h
+c00000000534580720000000000000B32
+t1397063794
+s2866
+i"SDL_stdinc.h"
+i"SDL_error.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_log.h
+c000000005345807200000000000017BB
+t1397063794
+s6075
+i"SDL_stdinc.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_main.h
+c00000000534580720000000000000CB6
+t1397063794
+s3254
+i"SDL_stdinc.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_messagebox.h
+c00000000534580720000000000001203
+t1397063794
+s4611
+i"SDL_stdinc.h"
+i"SDL_video.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_mixer.h
+c00000000534580720000000000006D03
+t1397063794
+s27907
+i"SDL_stdinc.h"
+i"SDL_rwops.h"
+i"SDL_audio.h"
+i"SDL_endian.h"
+i"SDL_version.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_mouse.h
+c00000000534580720000000000001D05
+t1397063794
+s7429
+i"SDL_stdinc.h"
+i"SDL_error.h"
+i"SDL_video.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_mutex.h
+c00000000534580720000000000001A09
+t1397063794
+s6665
+i"SDL_stdinc.h"
+i"SDL_error.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_pixels.h
+c00000000534580720000000000003AEE
+t1397063794
+s15086
+i"SDL_stdinc.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_platform.h
+c00000000534580720000000000000ECE
+t1397063794
+s3790
+i"AvailabilityMacros.h"
+i"TargetConditionals.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_power.h
+c0000000053458072000000000000099F
+t1397063794
+s2463
+i"SDL_stdinc.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_quit.h
+c0000000053458072000000000000083A
+t1397063794
+s2106
+i"SDL_stdinc.h"
+i"SDL_error.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_rect.h
+c00000000534580720000000000001021
+t1397063794
+s4129
+i"SDL_stdinc.h"
+i"SDL_error.h"
+i"SDL_pixels.h"
+i"SDL_rwops.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_render.h
+c000000005345807200000000000081B1
+t1397063794
+s33201
+i"SDL_stdinc.h"
+i"SDL_rect.h"
+i"SDL_video.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_rwops.h
+c00000000534580720000000000001C47
+t1397063794
+s7239
+i"SDL_stdinc.h"
+i"SDL_error.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_scancode.h
+c00000000534580720000000000003A62
+t1397063794
+s14946
+i"SDL_stdinc.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_stdinc.h
+c00000000534580720000000000003611
+t1397063794
+s13841
+i"SDL_config.h"
+i<sys/types.h>
+i<stdio.h>
+i<stdlib.h>
+i<stddef.h>
+i<stdarg.h>
+i<stdlib.h>
+i<malloc.h>
+i<stddef.h>
+i<stdarg.h>
+i<memory.h>
+i<string.h>
+i<strings.h>
+i<inttypes.h>
+i<stdint.h>
+i<ctype.h>
+i<math.h>
+i<iconv.h>
+i"begin_code.h"
+i<alloca.h>
+i<malloc.h>
+i<malloc.h>
+i<malloc.h>
+i<stdlib.h>
+i"close_code.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_surface.h
+c00000000534580720000000000004866
+t1397063794
+s18534
+i"SDL_stdinc.h"
+i"SDL_pixels.h"
+i"SDL_rect.h"
+i"SDL_blendmode.h"
+i"SDL_rwops.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_system.h
+c00000000534580720000000000001068
+t1397063794
+s4200
+i"SDL_stdinc.h"
+i"SDL_keyboard.h"
+i"SDL_render.h"
+i"SDL_video.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_thread.h
+c0000000053458072000000000000277C
+t1397063794
+s10108
+i"SDL_stdinc.h"
+i"SDL_error.h"
+i"SDL_atomic.h"
+i"SDL_mutex.h"
+i"begin_code.h"
+i<process.h>
+i"close_code.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_timer.h
+c00000000534580720000000000000D81
+t1397063794
+s3457
+i"SDL_stdinc.h"
+i"SDL_error.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_touch.h
+c0000000053458072000000000000091F
+t1397063794
+s2335
+i"SDL_stdinc.h"
+i"SDL_error.h"
+i"SDL_video.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_ttf.h
+c00000000534580720000000000002E4B
+t1397063794
+s11851
+i"SDL.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_version.h
+c00000000534580720000000000001429
+t1397063794
+s5161
+i"SDL_stdinc.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/SDL_video.h
+c00000000534580720000000000008220
+t1397063794
+s33312
+i"SDL_stdinc.h"
+i"SDL_pixels.h"
+i"SDL_rect.h"
+i"SDL_surface.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/begin_code.h
+c00000000534580720000000000000FF9
+t1397063794
+s4089
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/close_code.h
+c00000000534580720000000000000589
+t1397063794
+s1417
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/include/doxyfile
+c0000000053458072000000000000FFAD
+t1397063794
+s65453
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/lib/libSDL2.a
+c000000005345807200000000005F5D28
+t1397063794
+s6249768
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/lib/libSDL2_image.a
+c0000000053458072000000000006A300
+t1397063794
+s434944
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/lib/libSDL2_mixer.a
+c000000005345807200000000004C4AE8
+t1397063794
+s4999912
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/lib/libSDL2_net.a
+c000000005345807200000000000152D8
+t1397063794
+s86744
+
+N/Users/student/Desktop/IOS_Project-develop/SDL/lib/libSDL2_ttf.a
+c00000000534EC88400000000004FFB10
+t1397672068
+s5241616
+
+N/Users/student/Desktop/IOS_Project-develop/Sources/App.cpp
+c00000000534ED0590000000000000C62
+t1397674073
+s3170
+i"App.h"
+
+N/Users/student/Desktop/IOS_Project-develop/Sources/Background.cpp
+c0000000053458072000000000000011D
+t1397063794
+s285
+i"Background.h"
+
+N/Users/student/Desktop/IOS_Project-develop/Sources/Enemies.cpp
+c00000000534580720000000000000104
+t1397063794
+s260
+i"Enemies.h"
+
+N/Users/student/Desktop/IOS_Project-develop/Sources/Entity.cpp
+c00000000534ECA090000000000000316
+t1397672457
+s790
+i"Entity.h"
+
+N/Users/student/Desktop/IOS_Project-develop/Sources/Player.cpp
+c00000000534ECD5C000000000000027C
+t1397673308
+s636
+i"Player.h"
+
+N/Users/student/Desktop/IOS_Project-develop/Sources/Projectile.cpp
+c0000000053458072000000000000011C
+t1397063794
+s284
+i"Projectile.h"
+
+N/Users/student/Desktop/IOS_Project-develop/Sources/common.cpp
+c00000000534580720000000000000219
+t1397063794
+s537
+i<SDL.h>
+i<stdlib.h>
+
+N/Users/student/Desktop/IOS_Project-develop/Sources/maketext.cpp
+c000000005345807200000000000006D9
+t1397063794
+s1753
+i"maketext.h"
+
+N/Users/student/Desktop/IOS_Project-develop/Sources/music.cpp
+c000000005345807200000000000001A8
+t1397063794
+s424
+i"music.h"
+
+N/Users/student/Desktop/IOS_Project-develop/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/App.o
+t1397063794
+s70808
+
+N/Users/student/Desktop/IOS_Project-develop/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/BASESDL2APPIPAD.LinkFileList
+c000000005345807200000000000001A5
+t1397063794
+s421
+
+N/Users/student/Desktop/IOS_Project-develop/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/Background.o
+t2
+s0
+
+N/Users/student/Desktop/IOS_Project-develop/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/Enemies.o
+t2
+s0
+
+N/Users/student/Desktop/IOS_Project-develop/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/Entity.o
+t2
+s0
+
+N/Users/student/Desktop/IOS_Project-develop/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/Player.o
+t2
+s0
+
+N/Users/student/Desktop/IOS_Project-develop/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/Projectile.o
+t2
+s0
+
+N/Users/student/Desktop/IOS_Project-develop/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/common.o
+t1397063794
+s4420
+
+N/Users/student/Desktop/IOS_Project-develop/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/main.o
+t1397063794
+s59048
+
+N/Users/student/Desktop/IOS_Project-develop/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/maketext.o
+t2
+s0
+
+N/Users/student/Desktop/IOS_Project-develop/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/music.o
+t2
+s0
+
+N/Users/student/Desktop/IOS_Project-develop/build/Debug-iphonesimulator/BASESDL2APPIPAD.app
+t1397063794
+s884
+
+N/Users/student/Desktop/IOS_Project-develop/build/Debug-iphonesimulator/BASESDL2APPIPAD.app.dSYM
+t1397063794
+s102
+
+N/Users/student/Desktop/IOS_Project-develop/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/AppleGothic.ttf
+t1397063794
+s15394584
+
+N/Users/student/Desktop/IOS_Project-develop/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/BASESDL2APPIPAD
+t1397063794
+s1403868
+
+N/Users/student/Desktop/IOS_Project-develop/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/Bullet.png
+t2
+s0
+
+N/Users/student/Desktop/IOS_Project-develop/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/Info.plist
+t1397063794
+s819
+
+N/Users/student/Desktop/IOS_Project-develop/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/PkgInfo
+t1397063794
+s8
+
+N/Users/student/Desktop/IOS_Project-develop/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/Pop.png
+t2
+s0
+
+N/Users/student/Desktop/IOS_Project-develop/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/SDL_config.h.in
+t1397063794
+s8711
+
+N/Users/student/Desktop/IOS_Project-develop/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/SpacedJamPlayerLaser.png
+t2
+s0
+
+N/Users/student/Desktop/IOS_Project-develop/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/bitbop.wav
+t2
+s0
+
+N/Users/student/Desktop/IOS_Project-develop/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/doxyfile
+t1397063794
+s65453
+
+N/Users/student/Desktop/IOS_Project-develop/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/laser1.wav
+t2
+s0
+
+N/Users/student/Desktop/IOS_Project-develop/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/laser10.wav
+t2
+s0
+
+N/Users/student/Desktop/IOS_Project-develop/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/laser11.wav
+t2
+s0
+
+N/Users/student/Desktop/IOS_Project-develop/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/laser13.wav
+t2
+s0
+
+N/Users/student/Desktop/IOS_Project-develop/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/laser2.wav
+t2
+s0
+
+N/Users/student/Desktop/IOS_Project-develop/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/laser3.wav
+t2
+s0
+
+N/Users/student/Desktop/IOS_Project-develop/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/laser4_0-2.wav
+t2
+s0
+
+N/Users/student/Desktop/IOS_Project-develop/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/laser4_0.wav
+t2
+s0
+
+N/Users/student/Desktop/IOS_Project-develop/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/laser5.wav
+t2
+s0
+
+N/Users/student/Desktop/IOS_Project-develop/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/laser6.wav
+t2
+s0
+
+N/Users/student/Desktop/IOS_Project-develop/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/laser7.wav
+t2
+s0
+
+N/Users/student/Desktop/IOS_Project-develop/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/laser8-2.wav
+t2
+s0
+
+N/Users/student/Desktop/IOS_Project-develop/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/laser8.wav
+t2
+s0
+
+N/Users/student/Desktop/IOS_Project-develop/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/laser9.wav
+t2
+s0
+
+N/Users/student/Desktop/IOS_Project-develop/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/laser_shooting_sfx.wav
+t2
+s0
+
+N/Users/student/Desktop/IOS_Project-develop/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/panda.png
+t2
+s0
+
+N/Users/student/Desktop/IOS_Project-develop/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/pew pew pew sound 2.wav
+t2
+s0
+
+N/Users/student/Desktop/IOS_Project-develop/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/pew pew pew sound.wav
+t2
+s0
+
+N/Users/student/Desktop/IOS_Project-develop/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/ship1.PNG
+t2
+s0
+
+N/Users/student/Desktop/IOS_Project-develop/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/ship1blue.PNG
+t2
+s0
+
+N/Users/student/Desktop/IOS_Project-develop/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/ship1green.PNG
+t2
+s0
+
+N/Users/student/Desktop/IOS_Project-develop/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/ship2.png
+t2
+s0
+
+N/Users/student/Desktop/IOS_Project-develop/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/spacedJamEnemyShip.png
+t2
+s0
+
+N/Users/student/Desktop/IOS_Project-develop/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/spacedJamJamBlob.png
+t2
+s0
+
+N/Users/student/Desktop/IOS_Project-develop/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/spacedJamPlayerShip.png
+t2
+s0
+
+N/Users/student/Desktop/IOS_Project-develop/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/spacedJamiPhoneBackground.png
+t2
+s0
+
+N/Users/student/Desktop/IOS_Project-develop/main.cpp
+c00000000534580720000000000000121
+t1397063794
+s289
+i"App.h"
+
 N/Users/student/Desktop/Invaders of space/../guy.jpg
 c00000000000000000000000000000000
 t2
@@ -1818,8 +2864,8 @@ t1334365314
 s3021587
 
 NInfo.plist
-c0000000052F8FA82000000000000045C
-t1392048770
+c0000000053458072000000000000045C
+t1397063794
 s1116
 
 CCheck dependencies
@@ -1842,13 +2888,34 @@ lSLF07#2@56"Compile /Users/student/Desktop/Invaders of space/App.cpp417553946#41
 CCompileC build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/App.o "/Users/student/Desktop/Invaders of space/Sources/App.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
 r0
 
+CCompileC build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/App.o /Users/student/Desktop/IOS_Project-develop/Sources/App.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/Background.o /Users/student/Desktop/IOS_Project-develop/Sources/Background.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/Enemies.o /Users/student/Desktop/IOS_Project-develop/Sources/Enemies.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/Entity.o "/Users/student/Desktop/Invaders of space/Sources/Entity.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/Entity.o /Users/student/Desktop/IOS_Project-develop/Sources/Entity.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/Player.o /Users/student/Desktop/IOS_Project-develop/Sources/Player.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/Projectile.o /Users/student/Desktop/IOS_Project-develop/Sources/Projectile.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/common.o "/Users/student/Desktop/Invaders of space/Sources/common.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/common.o "/Users/student/Desktop/Invaders of space/common.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/common.o /Users/student/Desktop/IOS_Project-develop/Sources/common.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/common.o /Users/student/Downloads/BASESDL2APPIPAD/common.cpp normal i386 c++ com.apple.compilers.gcc.4_2
@@ -1877,6 +2944,9 @@ xc++
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@57"Compile /Users/student/Desktop/Invaders of space/main.cpp417553946#417553946#0(0"0(0#0#49"/Users/student/Desktop/Invaders of space/main.cpp4321181696#1988"    cd "/Users/student/Desktop/Invaders of space"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/student/Desktop/Invaders of space/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/BASESDL2APPIPAD-generated-files.hmap" "-I/Users/student/Desktop/Invaders of space/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/BASESDL2APPIPAD-own-target-headers.hmap" "-I/Users/student/Desktop/Invaders of space/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/BASESDL2APPIPAD-all-target-headers.hmap" -iquote "/Users/student/Desktop/Invaders of space/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/BASESDL2APPIPAD-project-headers.hmap" "-F/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator" "-F/Users/student/Desktop/Invaders of space/../../../Library/Frameworks" "-I/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/include" -ISDL/include "-I/Users/student/Desktop/Invaders of space/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/DerivedSources/i386" "-I/Users/student/Desktop/Invaders of space/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/DerivedSources" -c "/Users/student/Desktop/Invaders of space/main.cpp" -o "/Users/student/Desktop/Invaders of space/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/main.o"0#
 
+CCompileC build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/main.o /Users/student/Desktop/IOS_Project-develop/main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/main.o /Users/student/Downloads/BASESDL2APPIPAD/main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s416943002.047622
 e416943003.666621
@@ -1890,7 +2960,16 @@ xc++
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@57"Compile /Users/student/Downloads/BASESDL2APPIPAD/main.cpp416943002#416943003#0(0"0(0#0#49"/Users/student/Downloads/BASESDL2APPIPAD/main.cpp4319178752#1964"    cd /Users/student/Downloads/BASESDL2APPIPAD    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/student/Downloads/BASESDL2APPIPAD/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/BASESDL2APPIPAD-generated-files.hmap -I/Users/student/Downloads/BASESDL2APPIPAD/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/BASESDL2APPIPAD-own-target-headers.hmap -I/Users/student/Downloads/BASESDL2APPIPAD/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/BASESDL2APPIPAD-all-target-headers.hmap -iquote /Users/student/Downloads/BASESDL2APPIPAD/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/BASESDL2APPIPAD-project-headers.hmap -F/Users/student/Downloads/BASESDL2APPIPAD/build/Debug-iphonesimulator -F/Users/student/Downloads/BASESDL2APPIPAD/../../../Library/Frameworks -I/Users/student/Downloads/BASESDL2APPIPAD/build/Debug-iphonesimulator/include -ISDL/include -I/Users/student/Downloads/BASESDL2APPIPAD/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/DerivedSources/i386 -I/Users/student/Downloads/BASESDL2APPIPAD/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/DerivedSources -c /Users/student/Downloads/BASESDL2APPIPAD/main.cpp -o /Users/student/Downloads/BASESDL2APPIPAD/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/main.o0#
 
+CCompileC build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/maketext.o /Users/student/Desktop/IOS_Project-develop/Sources/maketext.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/music.o /Users/student/Desktop/IOS_Project-develop/Sources/music.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
 CCopyPlistFile "/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/Info.plist" Info.plist
+r0
+
+CCopyPlistFile /Users/student/Desktop/IOS_Project-develop/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/Info.plist Info.plist
 r0
 
 CCopyTiffFile "/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/person.tif" person.tif
@@ -1905,6 +2984,12 @@ x/Users/student/Downloads/BASESDL2APPIPAD/build/Debug-iphonesimulator/BASESDL2AP
 xperson.tif
 lSLF07#2@15"Copy person.tif416942998#416943002#0(0"0(0#0#51"/Users/student/Downloads/BASESDL2APPIPAD/person.tif4319178752#378"    cd /Users/student/Downloads/BASESDL2APPIPAD    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff person.tif --outdir /Users/student/Downloads/BASESDL2APPIPAD/build/Debug-iphonesimulator/BASESDL2APPIPAD.app0#
 
+CCpResource "build/Debug-iphonesimulator/BASESDL2APPIPAD.app/pew pew pew sound 2.wav" "Data/Sounds/pew pew pew sound 2.wav"
+r0
+
+CCpResource "build/Debug-iphonesimulator/BASESDL2APPIPAD.app/pew pew pew sound.wav" "Data/Sounds/pew pew pew sound.wav"
+r0
+
 CCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/AppleGothic.ttf AppleGothic.ttf
 s416942997.991485
 e416942998.193084
@@ -1915,6 +3000,9 @@ xAppleGothic.ttf
 lSLF07#2@20"Copy AppleGothic.ttf416942997#416942998#0(0"0(0#0#56"/Users/student/Downloads/BASESDL2APPIPAD/AppleGothic.ttf4319178752#487"    cd /Users/student/Downloads/BASESDL2APPIPAD    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/student/Downloads/BASESDL2APPIPAD/AppleGothic.ttf /Users/student/Downloads/BASESDL2APPIPAD/build/Debug-iphonesimulator/BASESDL2APPIPAD.app0#
 
 CCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/Background.bmp Data/Images/Background.bmp
+r0
+
+CCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/Bullet.png Data/Images/Bullet.png
 r0
 
 CCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/Default.png Default.png
@@ -1944,6 +3032,9 @@ xbuild/Debug-iphonesimulator/BASESDL2APPIPAD.app/Player.pbm
 xPlayer.pbm
 lSLF07#2@15"Copy Player.pbm416942998#416942998#0(0"0(0#0#51"/Users/student/Downloads/BASESDL2APPIPAD/Player.pbm4319178752#482"    cd /Users/student/Downloads/BASESDL2APPIPAD    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/student/Downloads/BASESDL2APPIPAD/Player.pbm /Users/student/Downloads/BASESDL2APPIPAD/build/Debug-iphonesimulator/BASESDL2APPIPAD.app0#
 
+CCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/Pop.png Data/Images/Pop.png
+r0
+
 CCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/SDL_config.h.in SDL/include/SDL_config.h.in
 s416942998.194677
 e416942998.210537
@@ -1953,6 +3044,9 @@ xbuild/Debug-iphonesimulator/BASESDL2APPIPAD.app/SDL_config.h.in
 xSDL/include/SDL_config.h.in
 lSLF07#2@32"Copy SDL/include/SDL_config.h.in416942998#416942998#0(0"0(0#0#68"/Users/student/Downloads/BASESDL2APPIPAD/SDL/include/SDL_config.h.in4319178752#499"    cd /Users/student/Downloads/BASESDL2APPIPAD    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/student/Downloads/BASESDL2APPIPAD/SDL/include/SDL_config.h.in /Users/student/Downloads/BASESDL2APPIPAD/build/Debug-iphonesimulator/BASESDL2APPIPAD.app0#
 
+CCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/SpacedJamPlayerLaser.png Data/Images/SpacedJamPlayerLaser.png
+r0
+
 CCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/background.bmp background.bmp
 s416942997.987858
 e416942998.074541
@@ -1961,6 +3055,9 @@ xCpResource
 xbuild/Debug-iphonesimulator/BASESDL2APPIPAD.app/background.bmp
 xbackground.bmp
 lSLF07#2@19"Copy background.bmp416942997#416942998#0(0"0(0#0#55"/Users/student/Downloads/BASESDL2APPIPAD/background.bmp4319178752#486"    cd /Users/student/Downloads/BASESDL2APPIPAD    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/student/Downloads/BASESDL2APPIPAD/background.bmp /Users/student/Downloads/BASESDL2APPIPAD/build/Debug-iphonesimulator/BASESDL2APPIPAD.app0#
+
+CCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/bitbop.wav Data/Sounds/bitbop.wav
+r0
 
 CCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/cb.bmp cb.bmp
 s416942997.993226
@@ -1991,6 +3088,54 @@ xCpResource
 xbuild/Debug-iphonesimulator/BASESDL2APPIPAD.app/indicator.bmp
 xindicator.bmp
 lSLF07#2@18"Copy indicator.bmp416942997#416942998#0(0"0(0#0#54"/Users/student/Downloads/BASESDL2APPIPAD/indicator.bmp4319178752#485"    cd /Users/student/Downloads/BASESDL2APPIPAD    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/student/Downloads/BASESDL2APPIPAD/indicator.bmp /Users/student/Downloads/BASESDL2APPIPAD/build/Debug-iphonesimulator/BASESDL2APPIPAD.app0#
+
+CCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/laser1.wav Data/Sounds/laser1.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/laser10.wav Data/Sounds/laser10.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/laser11.wav Data/Sounds/laser11.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/laser13.wav Data/Sounds/laser13.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/laser2.wav Data/Sounds/laser2.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/laser3.wav Data/Sounds/laser3.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/laser4_0-2.wav Data/Sounds/laser4_0-2.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/laser4_0.wav Data/Sounds/laser4_0.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/laser5.wav Data/Sounds/laser5.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/laser6.wav Data/Sounds/laser6.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/laser7.wav Data/Sounds/laser7.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/laser8-2.wav Data/Sounds/laser8-2.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/laser8.wav Data/Sounds/laser8.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/laser9.wav Data/Sounds/laser9.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/laser_shooting_sfx.wav Data/Sounds/laser_shooting_sfx.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/panda.png Data/Images/panda.png
+r0
 
 CCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/person.bmp person.bmp
 s416942997.994946
@@ -2055,6 +3200,18 @@ xbuild/Debug-iphonesimulator/BASESDL2APPIPAD.app/sample.wav
 xsample.wav
 lSLF07#2@15"Copy sample.wav416942998#416942998#0(0"0(0#0#51"/Users/student/Downloads/BASESDL2APPIPAD/sample.wav4319178752#482"    cd /Users/student/Downloads/BASESDL2APPIPAD    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/student/Downloads/BASESDL2APPIPAD/sample.wav /Users/student/Downloads/BASESDL2APPIPAD/build/Debug-iphonesimulator/BASESDL2APPIPAD.app0#
 
+CCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/ship1.PNG Data/Images/ship1.PNG
+r0
+
+CCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/ship1blue.PNG Data/Images/ship1blue.PNG
+r0
+
+CCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/ship1green.PNG Data/Images/ship1green.PNG
+r0
+
+CCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/ship2.png Data/Images/ship2.png
+r0
+
 CCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/sound.wav sound.wav
 s416942998.198038
 e416942998.216528
@@ -2063,6 +3220,18 @@ xCpResource
 xbuild/Debug-iphonesimulator/BASESDL2APPIPAD.app/sound.wav
 xsound.wav
 lSLF07#2@14"Copy sound.wav416942998#416942998#0(0"0(0#0#50"/Users/student/Downloads/BASESDL2APPIPAD/sound.wav4319178752#481"    cd /Users/student/Downloads/BASESDL2APPIPAD    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/student/Downloads/BASESDL2APPIPAD/sound.wav /Users/student/Downloads/BASESDL2APPIPAD/build/Debug-iphonesimulator/BASESDL2APPIPAD.app0#
+
+CCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/spacedJamEnemyShip.png Data/Images/spacedJamEnemyShip.png
+r0
+
+CCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/spacedJamJamBlob.png Data/Images/spacedJamJamBlob.png
+r0
+
+CCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/spacedJamPlayerShip.png Data/Images/spacedJamPlayerShip.png
+r0
+
+CCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/spacedJamiPhoneBackground.png Data/Images/spacedJamiPhoneBackground.png
+r0
 
 CCpResource build/Debug-iphonesimulator/BASESDL2APPIPAD.app/trial.mid trial.mid
 s416942998.201529
@@ -2100,6 +3269,9 @@ x/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/BASESDL2AP
 x/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/BASESDL2APPIPAD
 lSLF07#2@133"GenerateDSYMFile build/Debug-iphonesimulator/BASESDL2APPIPAD.app.dSYM build/Debug-iphonesimulator/BASESDL2APPIPAD.app/BASESDL2APPIPAD417553947#417553947#0(0"0(0#0#104"/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/BASESDL2APPIPAD4321181696#419"    cd "/Users/student/Desktop/Invaders of space"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/BASESDL2APPIPAD" -o "/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/BASESDL2APPIPAD.app.dSYM"0#
 
+CGenerateDSYMFile /Users/student/Desktop/IOS_Project-develop/build/Debug-iphonesimulator/BASESDL2APPIPAD.app.dSYM /Users/student/Desktop/IOS_Project-develop/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/BASESDL2APPIPAD
+r0
+
 CGenerateDSYMFile /Users/student/Downloads/BASESDL2APPIPAD/build/Debug-iphonesimulator/BASESDL2APPIPAD.app.dSYM /Users/student/Downloads/BASESDL2APPIPAD/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/BASESDL2APPIPAD
 s416943004.393099
 e416943004.762886
@@ -2120,6 +3292,9 @@ xi386
 old: warning: directory '/Users/student/Desktop/Invaders of space/../../../Library/Frameworks' following -F not found
 lSLF07#2@109"Link /Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/BASESDL2APPIPAD417553946#417553947#0(117"ld: warning: directory '/Users/student/Desktop/Invaders of space/../../../Library/Frameworks' following -F not found1(22@103"Directory '/Users/student/Desktop/Invaders of space/../../../Library/Frameworks' following -F not found417553947#0#117#0(6@0"417553947#0#0#0#0#0"0(0#0#0"17205784320#1253"    cd "/Users/student/Desktop/Invaders of space"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator" -LSDL/lib_simulator "-F/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator" "-F/Users/student/Desktop/Invaders of space/../../../Library/Frameworks" -filelist "/Users/student/Desktop/Invaders of space/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/BASESDL2APPIPAD.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -lSDL2_ttf -lSDL2_mixer -framework MobileCoreServices -lSDL2_net -framework ImageIO -framework Foundation -framework UIKit -framework OpenGLES -framework QuartzCore -framework CoreAudio -framework AudioToolbox -lSDL2 -framework CoreGraphics -lSDL2_image -prebind -o "/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/BASESDL2APPIPAD"0#
 
+CLd /Users/student/Desktop/IOS_Project-develop/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/BASESDL2APPIPAD normal i386
+r0
+
 CLd /Users/student/Downloads/BASESDL2APPIPAD/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/BASESDL2APPIPAD normal i386
 s416943003.666737
 e416943004.392988
@@ -2132,6 +3307,9 @@ old: warning: directory '/Users/student/Downloads/BASESDL2APPIPAD/../../../Libra
 lSLF07#2@109"Link /Users/student/Downloads/BASESDL2APPIPAD/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/BASESDL2APPIPAD416943003#416943004#0(117"ld: warning: directory '/Users/student/Downloads/BASESDL2APPIPAD/../../../Library/Frameworks' following -F not found1(22@103"Directory '/Users/student/Downloads/BASESDL2APPIPAD/../../../Library/Frameworks' following -F not found416943004#0#117#0(6@0"416943004#0#0#0#0#0"0(0#0#0"4319178752#1241"    cd /Users/student/Downloads/BASESDL2APPIPAD    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/student/Downloads/BASESDL2APPIPAD/build/Debug-iphonesimulator -LSDL/lib_simulator -F/Users/student/Downloads/BASESDL2APPIPAD/build/Debug-iphonesimulator -F/Users/student/Downloads/BASESDL2APPIPAD/../../../Library/Frameworks -filelist /Users/student/Downloads/BASESDL2APPIPAD/build/BASESDL2APPIPAD.build/Debug-iphonesimulator/BASESDL2APPIPAD.build/Objects-normal/i386/BASESDL2APPIPAD.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -lSDL2_ttf -lSDL2_mixer -framework MobileCoreServices -lSDL2_net -framework ImageIO -framework Foundation -framework UIKit -framework OpenGLES -framework QuartzCore -framework CoreAudio -framework AudioToolbox -lSDL2 -framework CoreGraphics -lSDL2_image -prebind -o /Users/student/Downloads/BASESDL2APPIPAD/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/BASESDL2APPIPAD0#
 
 CProcessInfoPlistFile "/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/Info.plist" Info.plist
+r0
+
+CProcessInfoPlistFile /Users/student/Desktop/IOS_Project-develop/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/Info.plist Info.plist
 r0
 
 CProcessInfoPlistFile /Users/student/Downloads/BASESDL2APPIPAD/build/Debug-iphonesimulator/BASESDL2APPIPAD.app/Info.plist Info.plist
@@ -2150,6 +3328,9 @@ r1
 xTouch
 x/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/BASESDL2APPIPAD.app
 lSLF07#2@94"Touch /Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/BASESDL2APPIPAD.app417553947#417553947#0(0"0(0#0#0"4321181696#294"    cd "/Users/student/Desktop/Invaders of space"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/student/Desktop/Invaders of space/build/Debug-iphonesimulator/BASESDL2APPIPAD.app"0#
+
+CTouch /Users/student/Desktop/IOS_Project-develop/build/Debug-iphonesimulator/BASESDL2APPIPAD.app
+r0
 
 CTouch /Users/student/Downloads/BASESDL2APPIPAD/build/Debug-iphonesimulator/BASESDL2APPIPAD.app
 s416943004.764288
