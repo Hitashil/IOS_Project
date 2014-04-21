@@ -14,13 +14,13 @@ Projectile::Projectile() : Entity()
     originalRect = rect;
 }
 
-Projectile::Projectile(int x, int y) : Entity(x, y)
+Projectile::Projectile(const char *name, int x, int y,  SDL_Renderer *renderer) : Entity(name, x, y, renderer)
 {
     go = false;
     originalRect = rect;
 }
 
-Projectile::Projectile(SDL_Rect rect) : Entity(rect)
+Projectile::Projectile(const char *name, SDL_Rect rect,  SDL_Renderer *renderer) : Entity(name ,rect, renderer)
 {
     go = false;
     originalRect = rect;

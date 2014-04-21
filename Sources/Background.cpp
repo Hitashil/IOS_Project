@@ -14,12 +14,12 @@ Background::Background() : Entity()
     
 }
 
-Background::Background(SDL_Rect rect) : Entity(rect)
+Background::Background(const char *name, SDL_Rect rect,  SDL_Renderer *renderer) : Entity(name, rect, renderer)
 {
     
 }
 
-Background::Background(int x, int y) : Entity(x, y)
+Background::Background(const char *name, int x, int y,  SDL_Renderer *renderer) : Entity(name, x, y, renderer)
 {
     
 }

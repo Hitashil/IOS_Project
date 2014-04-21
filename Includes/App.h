@@ -9,9 +9,6 @@
 #ifndef __BASESDL2APPIPAD__App__
 #define __BASESDL2APPIPAD__App__
 
-#define MAXENEMIES 10
-#define MAXPROJEC 3
-
 #include <iostream>
 #include <string>
 #include <sstream>
@@ -28,8 +25,14 @@
 
 #include "SDL.h"
 
+#define MAXENEMIES 5
+#define MAXPROJEC 3
+
+enum {INTROSCREEN, LOADINGSCREEN, GAMEPLAYSCREEN, GAMEOVERSCREEN};
+
 class App
 {
+	// Jordan
     private:
         SDL_Rect SCREEN_RECT;
         SDL_Window *window;
@@ -39,17 +42,18 @@ class App
     
         bool runningGame;
     
+		// Cass
     public:
         Background *bg;
     
         Player *player1;
-        Enemies *enemy;
+		Enemies *enemies[MAXENEMIES];
         Projectile *bullets[MAXPROJEC];
     
-    
-    public://Josh
-        int points = 0;
-        int life = 3;
+    // Josh
+    public:
+        int points;
+        int life;
         Maketext *score;
         Maketext *lives;
         music background;
@@ -61,10 +65,21 @@ class App
         App(void);
         ~App(void);
         void run();
-    
+
+	private:
+		Maketext *click_to_begin;
+		Maketext *loading;
+		Maketext *gameover;
+		Maketext *gameoverN;
+		int screen;
+		void Introscreen();
+		void loadingscreen();
+		void Introevent(SDL_Event Event);
+		void gameoverscreen();
+
     private:
         bool initialize();
-        void update_event(SDL_Event event);
+        void update_event(SDL_Event Event);
         void post_update();
         void update();
         void draw();

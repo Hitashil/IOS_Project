@@ -23,7 +23,7 @@
 			- DISPLAY IMAGE.
 
      PROGRAMMER: Jordan St Germain.
-
+ 
      DATE: March 12, 2013.
 */
 
@@ -54,7 +54,9 @@ class Maketext
 		Maketext();
 		~Maketext();
 		Maketext(string text, int size, SDL_Rect rect, int r, int g, int b);
-        Maketext(string text, int size, int x, int y, int w, int h, int r, int g, int b);
+		Maketext(string text, int size, int x, int y,  SDL_Color colour);
+        Maketext(string text, int size, int x, int y, int r, int g, int b);
+		Maketext(string text, int size, SDL_Rect rect, SDL_Color colour);
 
 		int initialize_text(); //  Sets up text.
         void set_text(string text);

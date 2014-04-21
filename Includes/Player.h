@@ -15,20 +15,25 @@
 #include "SDL_image.h"
 #include "Entity.h"
 
+#include "music.h"
+#include "Projectile.h"
+
 class Player : public Entity
 {
     public:
+		music fire;
         SDL_Rect move;
     
     public:
         Player();
-        Player(int x, int y);
-        Player(SDL_Rect rect);
+        Player(const char *name, int x, int y,  SDL_Renderer *renderer);
+        Player(const char *name, SDL_Rect rect,  SDL_Renderer *renderer);
         ~Player();
     
     public:
         void collision(int x, int y);
-        void update(SDL_Event event ,SDL_Joystick *joystick);
+        void update(SDL_Event Event ,SDL_Joystick *joystick);
+		bool fireBullet(SDL_Event Event);
 };
 
 #endif /* defined(__BASESDL2APPIPAD__Player__) */

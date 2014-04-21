@@ -8,6 +8,7 @@
 
 #include "App.h"
 
+// Helps put int/float/double to string.
 template <typename T>
 string toString(T num)
 {
@@ -17,6 +18,7 @@ string toString(T num)
     int_str << num;
     
     str = int_str.str();
+	int_str.flush();
     return str;
 }
 
@@ -24,6 +26,9 @@ App::App()
 {
     runningGame = true;
     bulletIndex = 0;
+
+	points = 0;
+	life = 3;
 }
 
 App::~App()
@@ -34,7 +39,7 @@ App::~App()
 
 bool App::initialize()
 {
-    //initialize SDL video
+    //initialize SDL Flages.
     if (SDL_Init( SDL_INIT_VIDEO | SDL_INIT_JOYSTICK | SDL_INIT_AUDIO) != 0)
     {
         fprintf(stderr,"Error building SDL: %s", SDL_GetError());
@@ -45,45 +50,113 @@ bool App::initialize()
     atexit(SDL_Quit);
     
     // Create main window and renderer.
-    window = SDL_CreateWindow("Invaders From Space", 0, 0, 0, 0,
-							  SDL_WINDOW_SHOWN);
-    
-    SDL_GetWindowSize(window, &SCREEN_RECT.w, &SCREEN_RECT.h);
-    
+	#if _WIN64
+		window = SDL_CreateWindow("Invaders From Space", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 640, 960,
+								SDL_WINDOW_SHOWN);
+	#elif _WIN32
+		window = SDL_CreateWindow("Invaders From Space", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 640, 960,
+								SDL_WINDOW_SHOWN);
+	#elif __APPLE__
+		window = SDL_CreateWindow(NULL, 0, 0, 0, 0, SDL_WINDOW_SHOWN);
+	#endif
+
+	SDL_GetWindowSize(window, &SCREEN_RECT.w, &SCREEN_RECT.h);
+
     renderer = SDL_CreateRenderer(window, 0, 0);
+
+	// Joystick intallization.
+	if(SDL_JoystickEventState(SDL_ENABLE))
+		joystick = SDL_JoystickOpen(0);
+	else
+	{
+		printf("No Joystick installed.\n");
+		return false;
+	}
+
+	srand(time(0));
+
+	// Current screen.
+	screen = INTROSCREEN;
+
+	// Screen text.
+	click_to_begin = new Maketext("Touch anywhere to begin!", 32, 150, (SCREEN_RECT.h/2 + 100), 255, 255, 255);
+	loading = new Maketext("Loading...", 50, 200, (SCREEN_RECT.h/2 - 100), 255, 255, 255);
+	gameover = new Maketext("You Died! Your score was " + toString(points) + ".", 32, 100, (SCREEN_RECT.h/2 - 50), 255, 255, 255);
+	gameoverN = new Maketext("Try to beat your score!", 32, 125, SCREEN_RECT.h/2 , 255, 255, 255);
+
+    // Background (Cass).
+	#if _WIN64
+		bg = new Background("spacedJamiPhoneBackground.png", 0, 0, renderer);
+	#elif _WIN32
+		bg = new Background("spacedJamiPhoneBackground.png", 0, 0, renderer);
+	#elif __APPLE__
+		#include "TargetConditionals.h"
+		#if TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR
+			bg = new Background("spacedJamiPhoneBackground.png", 0, 0, renderer); 
+		#else
+			bg = new Background("spacedJamiPadBackground.png", 0, 0, renderer);
+		#endif
+	#endif
     
-    SDL_JoystickEventState(SDL_ENABLE);
-    joystick = SDL_JoystickOpen(0);
+	// Text of health and lives (Josh).
+    score = new Maketext("Score: " + toString(points), 32, 10, 0, 255, 255, 255);
+	lives = new Maketext("Lives: " + toString(life), 32, (SCREEN_RECT.w - 150), 0, 255, 255, 255);
     
-    // Background
-    bg = new Background(0, 0);
-    bg->createEntity("spacedJamiPhoneBackground.png", renderer);
+    // Player (Cass).
+	player1 = new Player("ship2.png", ((SCREEN_RECT.w/2) - 50), (SCREEN_RECT.h - 150), renderer);
+
+	for (int i = 0; i < MAXENEMIES; i++)
+		enemies[i] = new Enemies("ship1green.png", rand() % SCREEN_RECT.w, -120, renderer);
     
-    score = new Maketext("Score: " + toString(points), 32, 10,0,100,32,255,255,255);
-    lives = new Maketext("Lives: " + toString(life), 32, 425,0,75,32,255,255,255);
-    
-    // Player.
-    player1 = new Player((SCREEN_RECT.w/2) - 50, SCREEN_RECT.h - 150);
-    player1->createEntity("ship1.PNG", renderer);
-    
-    //Player Projectile
+    //Player Projectile (Cass).
     for (int i = 0; i < MAXPROJEC; i++)
-    {
-        bullets[i] = new Projectile(player1->rect.x + 68,820);
-        bullets[i]->createEntity("SpacedJamPlayerLaser.png", renderer);
-    }
+		bullets[i] = new Projectile("SpacedJamPlayerLaser.png", 0, 0, renderer);
     
     
-    //josh
+    // (Josh) Backgound music.
     background.inialize_music("bitbop.wav");
     background.play_music(-1);
     
     return true;
 }
 
-void App::update_event(SDL_Event event)
+void App::Introevent(SDL_Event Event)
 {
-    if(event.type == SDL_MOUSEBUTTONDOWN && event.button.button == 1)
+	if(Event.type == SDL_MOUSEBUTTONDOWN && Event.button.button == 1)
+    {
+		screen = LOADINGSCREEN;
+	}
+}
+
+void App::Introscreen()
+{
+	SDL_RenderClear(renderer);
+	click_to_begin->display_text(renderer);
+	SDL_RenderPresent(renderer);
+}
+
+void App::loadingscreen()
+{
+	SDL_RenderClear(renderer);
+	loading->display_text(renderer);
+	SDL_RenderPresent(renderer);
+
+	SDL_Delay(2000);
+	screen = GAMEPLAYSCREEN;
+}
+
+void App::gameoverscreen()
+{
+	SDL_RenderClear(renderer);
+	gameover->display_text(renderer);
+	gameoverN->display_text(renderer);
+	SDL_RenderPresent(renderer);
+}
+
+void App::update_event(SDL_Event Event)
+{
+	// Once pressed, the bullet will fire.
+	if(player1->fireBullet(Event))
     {
         bulletIndex++;
         
@@ -91,32 +164,46 @@ void App::update_event(SDL_Event event)
         {
             bulletIndex = 0;
         }
-        
+
         bullets[bulletIndex]->go = true;
-        
-        bullets[bulletIndex]->rect.x = player1->rect.x + 68;
+		bullets[bulletIndex]->SetRect((player1->rect.x + 68), (SCREEN_RECT.h - player1->GetRect().h));
     }
 
     // Joystick movement.
     SDL_JoystickUpdate();
-    player1->update(event, joystick);
-    
-    for (int i = 0; i < MAXPROJEC; i++)
-        bullets[i]->moveProjec();
+    player1->update(Event, joystick);
 }
 
 void App::post_update()
 {
+	if (life <= 0)
+	{
+		screen = GAMEOVERSCREEN;
+	}
+
     player1->collision(SCREEN_RECT.w, SCREEN_RECT.h);
-    
     
     for (int i = 0; i < MAXPROJEC; i++)
         bullets[i]->collision(SCREEN_RECT.w, SCREEN_RECT.h);
+
+	for (int i = 0; i < MAXENEMIES; i++)
+		if(enemies[i]->collision(SCREEN_RECT.w, SCREEN_RECT.h))
+		{
+			life--;
+			enemies[i]->SetRect((rand() % SCREEN_RECT.w) , -enemies[i]->GetRect().h);
+		}
 }
 
 void App::update()
 {
-    
+	score->set_text("Score: " + toString(points));
+	lives->set_text("Lives: " + toString(life));
+
+	for (int i = 0; i < MAXPROJEC; i++)
+        bullets[i]->moveProjec();
+
+	for (int i = 0; i < MAXENEMIES; i++)
+		enemies[i]->moveEnemies(0, 3);
 }
 
 void App::draw()
@@ -130,13 +217,14 @@ void App::draw()
         if (bullets[i]->go)
             bullets[i]->draw(renderer);
     }
+
+	for (int i = 0; i < MAXENEMIES; i++)
+		enemies[i]->draw(renderer);
     
     player1->draw(renderer);
     
     score->display_text(renderer);
     lives->display_text(renderer);
-    
-    // draw inbetween here.
     
     SDL_RenderPresent(renderer);
 }
@@ -145,33 +233,54 @@ void App::run()
 {
     if (!App::initialize())
     {
-        printf("An error has occur!");
+        printf("An error has occur while initalizing!");
         return;
     }
     
     while (runningGame)
     {
-        SDL_Event event;
-        while(SDL_PollEvent(&event))
-        {
-            if (event.type == SDL_QUIT)
-            {
-                return;
-            }
-            else if (event.type == SDL_KEYDOWN && event.key.keysym.sym == SDLK_ESCAPE)
-            {
-                return;
-            }
-            else
-                App::update_event(event);
-        }
+		SDL_Event Event;
+
+		while(SDL_PollEvent(&Event))
+			{
+				if (Event.type == SDL_QUIT)
+				{
+					return;
+				}
+				else if (Event.type == SDL_KEYDOWN && Event.key.keysym.sym == SDLK_ESCAPE)
+				{
+					return;
+				}
+				else if (screen == INTROSCREEN)
+				{
+					App::Introevent(Event);
+				}
+				else if (screen == GAMEPLAYSCREEN)
+				{
+					App::update_event(Event);
+				}
+			}
+
+		if (screen == INTROSCREEN)
+		{
+			App::Introscreen();
+		}
+		else if (screen == LOADINGSCREEN)
+		{
+			App::loadingscreen();
+		}
+		else if (screen == GAMEPLAYSCREEN)
+		{        
+			App::post_update();
+			App::update();
         
+			App::draw();
         
-        App::post_update();
-        App::update();
-        
-        App::draw();
-        
-        SDL_Delay(10);
+			SDL_Delay(10);
+		}
+		else if (screen == GAMEOVERSCREEN)
+		{
+			App::gameoverscreen();
+		}
     }
 }

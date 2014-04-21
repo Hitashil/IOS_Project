@@ -17,10 +17,14 @@
 
 class Enemies: public Entity
 {
-public:
-    Enemies();
-    Enemies(int x, int y);
-    Enemies(SDL_Rect rect);
-    ~Enemies();
+	public:
+		Enemies();
+		Enemies(const char *name, int x, int y,  SDL_Renderer *renderer);
+		Enemies(const char *name, SDL_Rect rect, SDL_Renderer *renderer);
+		~Enemies();
+
+	public:
+		bool collision(int x, int y);
+		void moveEnemies(int x, int y);
 };
 #endif /* defined(__BASESDL2APPIPAD__Enemies__) */

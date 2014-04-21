@@ -10,15 +10,15 @@
 
 Player::Player() : Entity()
 {
-    
+
 }
 
-Player::Player(int x, int y) : Entity(x, y)
+Player::Player(const char *name, int x, int y,  SDL_Renderer *renderer) : Entity(name, x, y, renderer)
 {
     
 }
 
-Player::Player(SDL_Rect rect) : Entity(rect)
+Player::Player(const char *name, SDL_Rect rect,  SDL_Renderer *renderer) : Entity(name, rect, renderer)
 {
     
 }
@@ -32,15 +32,28 @@ void Player::collision(int x, int y)
         
 }
 
-void Player::update(SDL_Event event, SDL_Joystick *joystick)
+bool Player::fireBullet(SDL_Event Event)
+{
+	if(Event.type == SDL_MOUSEBUTTONDOWN && Event.button.button == 1)
+    {
+		// (Josh) Firing sound.
+		fire.inialize_music("laser1.wav");
+		fire.play_music(0);
+		return true;
+    }
+	else
+		return false;
+}
+
+void Player::update(SDL_Event Event, SDL_Joystick *joystick)
 {
     move.x = SDL_JoystickGetAxis(joystick, 0);
     
-    if (move.x >= 3200)
+    if (move.x >= 1600)
     {
         rect.x += 5;
     }
-    else if (move.x <= -3200)
+    else if (move.x <= -1600)
     {
         rect.x -= 5;
     }

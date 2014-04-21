@@ -19,13 +19,15 @@ class Projectile : public Entity
 {
     public:
         Projectile();
-        Projectile(int x, int y);
-        Projectile(SDL_Rect rect);
+        Projectile(const char *name, int x, int y,  SDL_Renderer *renderer);
+        Projectile(const char *name, SDL_Rect rect,  SDL_Renderer *renderer);
         ~Projectile();
     
     public:
         bool go;
         SDL_Rect originalRect;
+
+	public:
         void collision(int x, int y);
         void moveProjec();
 };

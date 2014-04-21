@@ -17,8 +17,8 @@ class Background : public Entity
 {
     public:
         Background();
-        Background(int x, int y);
-        Background(SDL_Rect rect);
+        Background(const char *name, int x, int y,  SDL_Renderer *renderer);
+        Background(const char *name, SDL_Rect rect,  SDL_Renderer *renderer);
 };
 
 #endif /* defined(__BASESDL2APPIPAD__Background__) */

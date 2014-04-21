@@ -13,25 +13,45 @@ Entity::Entity()
     
 }
 
-Entity::Entity(int x, int y)
+Entity::Entity(const char *name, int x, int y,  SDL_Renderer *renderer)
 {
+	if(!createEntity(name, renderer))
+	{
+		printf("Could not load image correctly...\n");
+		exit(-1);
+	}
+
     rect.x = x;
     rect.y = y;
 }
 
-Entity::Entity(SDL_Rect rect)
+Entity::Entity(const char *name, SDL_Rect rect, SDL_Renderer *renderer)
 {
-    this->rect = rect;
+	if(!createEntity(name, renderer))
+	{
+		printf("Could not load image correctly...\n");
+		exit(-1);
+	}
+
+	this->rect.x = rect.x;
+	this->rect.x = rect.y;
 }
 
 Entity::~Entity()
 {
-    
+	SDL_DestroyTexture(texture);
 }
 
 bool Entity::createEntity(const char *name, SDL_Renderer *renderer)
 {
     surface = IMG_Load(name);
+
+	if (!surface)
+	{
+		printf("IMAGE ERROR: Could not load - %s\n", name);
+		return false;
+	}
+
     SDL_SetColorKey(surface, 1, SDL_MapRGB(surface->format, 0, 0, 0));
     texture = SDL_CreateTextureFromSurface(renderer, surface);
     
