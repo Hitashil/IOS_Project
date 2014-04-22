@@ -6,6 +6,17 @@
 //
 //
 
+/*
+ bring back to main menu.
+ spacing out enemies
+ turn enemies around
+ smaller enemies/player?
+ more shots?
+ name of game on intro screen
+ collision with enemies and laser
+ respawn enemies at the top.
+ */
+
 #ifndef __BASESDL2APPIPAD__App__
 #define __BASESDL2APPIPAD__App__
 
@@ -67,6 +78,8 @@ class App
         void run();
 
 	private:
+        Maketext *Title;
+        Maketext *People;
 		Maketext *click_to_begin;
 		Maketext *loading;
 		Maketext *gameover;
@@ -75,6 +88,7 @@ class App
 		void Introscreen();
 		void loadingscreen();
 		void Introevent(SDL_Event Event);
+        void Outroevent(SDL_Event Event);
 		void gameoverscreen();
 
     private:

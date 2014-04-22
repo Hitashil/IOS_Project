@@ -51,10 +51,10 @@ void Player::update(SDL_Event Event, SDL_Joystick *joystick)
     
     if (move.x >= 1600)
     {
-        rect.x += 5;
+        rect.x += 10;
     }
     else if (move.x <= -1600)
     {
-        rect.x -= 5;
+        rect.x -= 10;
     }
 }

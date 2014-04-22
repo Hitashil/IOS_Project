@@ -28,7 +28,7 @@ App::App()
     bulletIndex = 0;
 
 	points = 0;
-	life = 3;
+	life = 5;
 }
 
 App::~App()
@@ -79,10 +79,12 @@ bool App::initialize()
 	screen = INTROSCREEN;
 
 	// Screen text.
+    Title = new Maketext("Invaders From Space!", 45, 100, (SCREEN_RECT.h/2 - 200), 255, 255, 255);
+    People = new Maketext("By: Josh, Cass & Jordan", 32, 150, (SCREEN_RECT.h/2), 255, 255, 255);
 	click_to_begin = new Maketext("Touch anywhere to begin!", 32, 150, (SCREEN_RECT.h/2 + 100), 255, 255, 255);
 	loading = new Maketext("Loading...", 50, 200, (SCREEN_RECT.h/2 - 100), 255, 255, 255);
 	gameover = new Maketext("You Died! Your score was " + toString(points) + ".", 32, 100, (SCREEN_RECT.h/2 - 50), 255, 255, 255);
-	gameoverN = new Maketext("Try to beat your score!", 32, 125, SCREEN_RECT.h/2 , 255, 255, 255);
+	gameoverN = new Maketext("Tap To Try Again!", 32, 125, SCREEN_RECT.h/2 , 255, 255, 255);
 
     // Background (Cass).
 	#if _WIN64
@@ -106,7 +108,7 @@ bool App::initialize()
 	player1 = new Player("ship2.png", ((SCREEN_RECT.w/2) - 50), (SCREEN_RECT.h - 150), renderer);
 
 	for (int i = 0; i < MAXENEMIES; i++)
-		enemies[i] = new Enemies("ship1green.png", rand() % SCREEN_RECT.w, -120, renderer);
+		enemies[i] = new Enemies("ship1blue.png", rand() % SCREEN_RECT.w, -120, renderer);
     
     //Player Projectile (Cass).
     for (int i = 0; i < MAXPROJEC; i++)
@@ -128,9 +130,29 @@ void App::Introevent(SDL_Event Event)
 	}
 }
 
+void App::Outroevent(SDL_Event Event)
+{
+    if(Event.type == SDL_MOUSEBUTTONDOWN && Event.button.button == 1)
+    {
+		screen = INTROSCREEN;
+        life = 5;
+        points = 0;
+        for (int j = 0; j < MAXENEMIES; j++)
+            enemies[j]->SetRect((rand() % SCREEN_RECT.w) , -enemies[j]->GetRect().h);
+        for (int i = 0; i < MAXPROJEC; i++)
+        {
+            bullets[i]->go = false;
+            bullets[i]->SetRect((player1->rect.x + 68), (SCREEN_RECT.h - player1->GetRect().h));
+        }
+        //TODO Finish This
+	}
+}
 void App::Introscreen()
 {
 	SDL_RenderClear(renderer);
+    bg->draw(renderer);
+    Title->display_text(renderer);
+    People->display_text(renderer);
 	click_to_begin->display_text(renderer);
 	SDL_RenderPresent(renderer);
 }
@@ -180,7 +202,25 @@ void App::post_update()
 	{
 		screen = GAMEOVERSCREEN;
 	}
-
+    
+    //collisions code
+    for (int i = 0; i < MAXPROJEC; i++)
+    {
+        for (int j = 0; j < MAXENEMIES; j++)
+        {
+            if (bullets[i]->GetRect().y < player1->GetRect().y && bullets[i]->GetRect().y > enemies[j]->GetRect().y && bullets[i]->GetRect().y < enemies[j]->GetRect().y + enemies[j]->GetRect().h && bullets[i]->GetRect().x > enemies[j]->GetRect().x && bullets[i]->GetRect().x < enemies[j]->GetRect().x + enemies[j]->GetRect().w)
+            {
+                //TODO Add destroy Enemies and put at top
+                enemies[j]->SetRect((rand() % SCREEN_RECT.w) , -enemies[j]->GetRect().h);
+                
+                bullets[i]->go = false;
+                bullets[i]->SetRect((player1->rect.x + 68), (SCREEN_RECT.h - player1->GetRect().h));
+                
+                points += 10;
+            }
+        }
+    }
+    
     player1->collision(SCREEN_RECT.w, SCREEN_RECT.h);
     
     for (int i = 0; i < MAXPROJEC; i++)
@@ -259,6 +299,10 @@ void App::run()
 				{
 					App::update_event(Event);
 				}
+                else if (screen == GAMEOVERSCREEN)
+                {
+                    App::Outroevent(Event);
+                }
 			}
 
 		if (screen == INTROSCREEN)
